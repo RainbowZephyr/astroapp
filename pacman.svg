@@ -24,12 +24,12 @@
 <rect x="0" y="0" width="52.5" height="2" fill="black" transform="rotate(330, 487.5, 487.5) translate(877.5, 487.5)"/>
 <circle cx="487.5" cy="487.5" r="206.25" stroke="black" fill="none" stroke-width="2px"/>
 <circle cx="487.5" cy="487.5" r="127.5" stroke="black" fill="none" stroke-width="2px"/>
-<line x1="-67.87985573365145" y1="522.5713589411293" x2="424.7546244234784" y2="809.3034097486984" stroke="black" stroke-width="2" stroke-dasharray="10 5 4"/>
-<line x1="-67.87985573365145" y1="522.5713589411293" x2="424.7546244234784" y2="809.3034097486984" stroke="black" stroke-width="2" stroke-dasharray="10 5 4"/>
-<line x1="-67.87985573365145" y1="522.5713589411293" x2="424.7546244234784" y2="809.3034097486984" stroke="black" stroke-width="2" stroke-dasharray="10 5 4"/>
-<line x1="-67.87985573365145" y1="522.5713589411293" x2="424.7546244234784" y2="809.3034097486984" stroke="black" stroke-width="2" stroke-dasharray="10 5 4"/>
-<line x1="-67.87985573365145" y1="522.5713589411293" x2="424.7546244234784" y2="809.3034097486984" stroke="black" stroke-width="2" stroke-dasharray="10 5 4"/>
-<line x1="-67.87985573365145" y1="522.5713589411293" x2="424.7546244234784" y2="809.3034097486984" stroke="black" stroke-width="2" stroke-dasharray="10 5 4"/>
+<line x1="202.5" y1="486.5" x2="772.5" y2="488.5" stroke="blue" stroke-width="2"/>
+<line x1="67.87985573365114" y1="522.5713589411293" x2="424.75462442347896" y2="809.3034097486982" stroke="blue" stroke-width="2"/>
+<line x1="320.07135894112935" y1="418.62014426634886" x2="36.80340974869813" y2="913.2546244234788" stroke="blue" stroke-width="2"/>
+<line x1="486.5" y1="202.50000000000003" x2="488.49999999999994" y2="772.5" stroke="blue" stroke-width="2"/>
+<line x1="522.5713589411293" y1="67.87985573365106" x2="809.3034097486982" y2="424.7546244234791" stroke="blue" stroke-width="2"/>
+<line x1="418.6201442663488" y1="320.0713589411294" x2="913.254624423479" y2="36.80340974869836" stroke="red" stroke-width="2"/>
 <rect x="0" y="0" width="52.5" height="2" fill="black" transform="rotate(0, 487.5, 487.5)     translate(825.0, 487.5) "/>
 <rect x="0" y="0" width="52.5" height="2" fill="black" transform="rotate(10, 487.5, 487.5)     translate(825.0, 487.5) "/>
 <rect x="0" y="0" width="52.5" height="2" fill="black" transform="rotate(20, 487.5, 487.5)     translate(825.0, 487.5) "/>

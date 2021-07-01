@@ -26,7 +26,7 @@ svg.build do
 
     circle cx: center, cy: center, r: outer_radius - difference*3, stroke: 'black', fill: 'none', stroke_width: '2px'
 
-    for i in (0...360).step(30) do
+    for i in (0...360).step(30)
         rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference}, #{center})"
     end
 
@@ -35,9 +35,20 @@ svg.build do
     circle cx: center, cy: center, r: outer_radius - difference*6, stroke: 'black', fill: 'none', stroke_width: '2px'
 
 
-    for x in (0..150).step(30) do
-        puts "$$$$$$$$$$$ #{x} #{grad(x)}"
-        line x1: Math.cos(grad(i)) * (center - (outer_radius - difference * 3)) + Math.sin(grad(i)) * (center - 1), y1: Math.cos(grad(i)) * (center-1) - Math.sin(grad(i)) * (center - (outer_radius - difference * 3)), x2: Math.cos(grad(i)) * (center + (outer_radius - difference * 3)) + Math.sin(grad(i)) * (center + 1) , y2: Math.cos(grad(i)) * (center +1 ) - Math.sin(grad(i)) *(center + (outer_radius - difference * 3)), stroke: "black", stroke_width: '2', stroke_dasharray: '10 5 4'
+    for i in (0...180).step(30)
+        x11 = (Math.cos(grad(i)) * (center - (outer_radius - difference * 3)) - Math.sin(grad(i)) * (center - 1)).abs
+        y11 = (Math.cos(grad(i)) * (center-1) + Math.sin(grad(i)) * (center - (outer_radius - difference * 3))).abs
+        x21 = (Math.cos(grad(i)) * (center + (outer_radius - difference * 3)) - Math.sin(grad(i)) * (center + 1)).abs
+        y21 = (Math.cos(grad(i)) * (center + 1) + Math.sin(grad(i)) * (center + (outer_radius - difference * 3))).abs
+
+puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
+
+        if i == 150
+        line x1: x11, y1: y11, x2: x21 , y2: y21, stroke: "red", stroke_width: '2'#, stroke_dasharray: '10 5 4'
+    else
+        line x1: x11, y1: y11, x2: x21 , y2: y21, stroke: "blue", stroke_width: '2'#, stroke_dasharray: '10 5 4'
+
+    end
 
     end
 
