@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="300" height="400" version="1.1" xmlns="http://www.w3.org/2000/svg">
- <path d="m286.84 347.95c-19.265 18.659-50.322 33.658-75.82 18.355-24.527-15.806-26.088-50.149-16.57-75.059 14.499-37.96 35.018-73.374 48.909-111.63 12.955-32.776 24.167-71.502 7.0641-104.95-17.637-38.252-66.447-57.43-105.39-41.408-37.572 13.606-60.681 56.572-51.492 95.419 8.6833 39.391 43.822 69.649 43.163 111.63 0.15092 34.17-33.64 62.825-67.321 57.338-34.413-3.6231-59.55-40.741-50.47-74.039 6.9735-33.23 45.337-54.717 77.271-43.005 23.609 7.5743 40.445 30.88 40.491 55.658" fill="none" stroke="#000" stroke-width="25"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="300"
+   height="400"
+   version="1.1"
+   id="svg890"
+   sodipodi:docname="Leo.svg"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs894" />
+  <sodipodi:namedview
+     id="namedview892"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="2.1325"
+     inkscape:cx="1.6412661"
+     inkscape:cy="200"
+     inkscape:window-width="1920"
+     inkscape:window-height="1006"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg890" />
+  <path
+     d="m286.84 347.95c-19.265 18.659-50.322 33.658-75.82 18.355-24.527-15.806-26.088-50.149-16.57-75.059 14.499-37.96 35.018-73.374 48.909-111.63 12.955-32.776 24.167-71.502 7.0641-104.95-17.637-38.252-66.447-57.43-105.39-41.408-37.572 13.606-60.681 56.572-51.492 95.419 8.6833 39.391 43.822 69.649 43.163 111.63 0.15092 34.17-33.64 62.825-67.321 57.338-34.413-3.6231-59.55-40.741-50.47-74.039 6.9735-33.23 45.337-54.717 77.271-43.005 23.609 7.5743 40.445 30.88 40.491 55.658"
+     fill="none"
+     stroke="#000"
+     stroke-width="25"
+     id="path888"
+     style="fill-opacity:1;fill:none;stroke:#cfcfcf;stroke-opacity:1" />
 </svg>

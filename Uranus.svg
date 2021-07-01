@@ -1,4 +1,45 @@
-<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
-<path d="M14.65 31.64h-7v-1l4-1v-20l-4-1v-1h7v24ZM36.65 31.64h7v-1l-4-1v-20l4-1v-1h-7v24Z"/>
-<path d="M13.65 19.64h24m-12-12v27m-.01 0a4 4 0 1 0 .02 0Z" fill="none" stroke="#000" stroke-width="3"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="50"
+   height="50"
+   version="1.1"
+   id="svg1607"
+   sodipodi:docname="Uranus.svg"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1611" />
+  <sodipodi:namedview
+     id="namedview1609"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     showguides="false"
+     inkscape:zoom="17.06"
+     inkscape:cx="15.855803"
+     inkscape:cy="25"
+     inkscape:window-width="1920"
+     inkscape:window-height="1006"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1607" />
+  <path
+     d="M14.65 31.64h-7v-1l4-1v-20l-4-1v-1h7v24ZM36.65 31.64h7v-1l-4-1v-20l4-1v-1h-7v24Z"
+     id="path1603"
+     style="fill:#cfcfcf;fill-opacity:1" />
+  <path
+     d="M13.65 19.64h24m-12-12v27m-.01 0a4 4 0 1 0 .02 0Z"
+     fill="none"
+     stroke="#000"
+     stroke-width="3"
+     id="path1605"
+     style="fill:none;fill-opacity:1;stroke:#cfcfcf;stroke-opacity:1" />
 </svg>

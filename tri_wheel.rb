@@ -17,50 +17,37 @@ def main
     term_height = 30
 
 svg.build do
+    rect x: 0, y: 0, width: dim, height: dim, fill: '#242526'
 
-    circle cx: center, cy: center, r: outer_radius, stroke: 'black', fill: 'none', stroke_width: '2px'
+    circle cx: center, cy: center, r: outer_radius, stroke: '#dab97f', fill: 'none', stroke_width: '2px'
 
-    circle cx: center, cy: center, r: outer_radius - difference, stroke: 'black', fill: 'none', stroke_width: '2px'
+    circle cx: center, cy: center, r: outer_radius - difference, stroke: '#dab97f', fill: 'none', stroke_width: '2px'
 
-    circle cx: center, cy: center, r: outer_radius - difference*2, stroke: 'black', fill: 'none', stroke_width: '2px'
+    circle cx: center, cy: center, r: outer_radius - difference*2, stroke: '#dab97f', fill: 'none', stroke_width: '2px'
 
-    circle cx: center, cy: center, r: outer_radius - difference*3, stroke: 'black', fill: 'none', stroke_width: '2px'
+    circle cx: center, cy: center, r: outer_radius - difference*3, stroke: '#dab97f', fill: 'none', stroke_width: '2px'
 
     for i in (0...360).step(30)
-        rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference}, #{center})"
+        rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference}, #{center})"
     end
 
-    circle cx: center, cy: center, r: outer_radius - difference*4.5, stroke: 'black', fill: 'none', stroke_width: '2px'
+    circle cx: center, cy: center, r: outer_radius - difference*4.5, stroke: '#dab97f', fill: 'none', stroke_width: '2px'
 
-    circle cx: center, cy: center, r: outer_radius - difference*6, stroke: 'black', fill: 'none', stroke_width: '2px'
+    circle cx: center, cy: center, r: outer_radius - difference*6, stroke: '#dab97f', fill: 'none', stroke_width: '2px'
 
 
-    for i in (0...180).step(30)
-        x11 = (Math.cos(grad(i)) * (center - (outer_radius - difference * 3)) - Math.sin(grad(i)) * (center - 1)).abs
-        y11 = (Math.cos(grad(i)) * (center-1) + Math.sin(grad(i)) * (center - (outer_radius - difference * 3))).abs
-        x21 = (Math.cos(grad(i)) * (center + (outer_radius - difference * 3)) - Math.sin(grad(i)) * (center + 1)).abs
-        y21 = (Math.cos(grad(i)) * (center + 1) + Math.sin(grad(i)) * (center + (outer_radius - difference * 3))).abs
+    line_width = (center + (outer_radius - difference * 3)) - (center - (outer_radius - difference * 3))
 
-puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
+    for i in (0...360).step(30)
 
-        if i == 150
-        line x1: x11, y1: y11, x2: x21 , y2: y21, stroke: "red", stroke_width: '2'#, stroke_dasharray: '10 5 4'
-    else
-        line x1: x11, y1: y11, x2: x21 , y2: y21, stroke: "blue", stroke_width: '2'#, stroke_dasharray: '10 5 4'
+        line x1: center - (outer_radius - difference * 3), y1: center-1, x2: center, y2: center, stroke: "#4d4d4d", stroke_width: '2', stroke_dasharray: '10 5 4', transform: "rotate(#{i}, #{center}, #{center})"
 
     end
-
-    end
-
-    # line x1: center - (outer_radius - difference * 3 ), y1: center-1, x2:center + (outer_radius - difference * 3), y2: center+1, stroke: "black", stroke_width: '2', stroke_dasharray: '10 5 4'
-
-
-
 
 
     for i in (0...360).step(10) do
         if i % 2 == 0
-            rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{i}, #{center}, #{center})     translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*2}, #{center}) "
+            rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{i}, #{center}, #{center})     translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*2}, #{center}) "
         else
             rect x: 0, y: 0, width: difference, height: 2, fill: 'red', transform:"rotate(#{i}, #{center}, #{center})     translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*2}, #{center}) "
         end
@@ -83,7 +70,7 @@ puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
     zodiac_height = zodiac_height / 0.95
 
     for i in [0,6,12,20,25,30] do
-        rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{shift+270-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+        rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{shift+270-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
     end
 
     w = 50 / (50/term_height)
@@ -126,7 +113,7 @@ puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
 
 
     for i in [0,8,14,22,27,30] do
-        rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{shift+240-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+        rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{shift+240-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
     end
 
     term_height = term_height * 0.95
@@ -167,7 +154,7 @@ puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
     image x: 0, y: 0, width: w, height: zodiac_height, href:"Sun.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference+(difference-zodiac_height)/2.0}) rotate(#{300-25-shift}, #{w/2.0}, #{outer_radius-difference-(difference-zodiac_height)/2.0})"
 
     for i in [0,6,12,17,24,30] do
-        rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{shift+210-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+        rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{shift+210-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
     end
 
     w = 50 / (50/term_height)
@@ -211,7 +198,7 @@ puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
 
 
     for i in [0,7,13,18,26,30] do
-        rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{shift+180-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+        rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{shift+180-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
     end
 
     w = 50 / (50/term_height)
@@ -252,7 +239,7 @@ puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
 
 
     for i in [0,6,11,18,24,30] do
-        rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{shift+150-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+        rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{shift+150-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
     end
 
     w = 50 / (50/term_height)
@@ -293,7 +280,7 @@ puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
 
 
     for i in [0,7,17,21,28,30] do
-        rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{shift+120-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+        rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{shift+120-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
     end
 
     w = 50 / (50/term_height)
@@ -334,7 +321,7 @@ puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
     image x: 0, y: 0, width: w, height: zodiac_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference+(difference-zodiac_height)/2.0}) rotate(#{180-25-shift}, #{w/2.0}, #{outer_radius-difference-(difference-zodiac_height)/2.0})"
 
     for i in [0,6,14,21,28,30] do
-        rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{shift+90-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+        rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{shift+90-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
     end
 
     term_height = term_height * 1.1
@@ -375,7 +362,7 @@ puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
 
 
     for i in [0,7,11,19,24,30] do
-        rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{shift+60-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+        rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{shift+60-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
     end
 
     w = 50 / (50/term_height)
@@ -417,7 +404,7 @@ puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
     zodiac_height = zodiac_height / 1.1
 
     for i in [0,12,17,21,26,30] do
-        rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{shift+30-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+        rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{shift+30-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
     end
 
     w = 50 / (50/term_height)
@@ -457,7 +444,7 @@ puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
 
 
     for i in [0,7,14,22,26,30] do
-        rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{shift-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+        rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{shift-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
     end
 
     w = 50 / (50/term_height)
@@ -500,7 +487,7 @@ puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
     zodiac_height = zodiac_height / 0.8
 
     for i in [0,7,13,20,25,30] do
-        rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{shift+330-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+        rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{shift+330-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
     end
 
     w = 50 / (50/term_height)
@@ -540,7 +527,7 @@ puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
     image x: 0, y: 0, width: w, height: zodiac_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference+(difference-zodiac_height)/2.0}) rotate(#{30-25-shift}, #{w/2.0}, #{outer_radius-difference-(difference-zodiac_height)/2.0})"
 
     for i in [0,12,16,19,28,30] do
-        rect x: 0, y: 0, width: difference, height: 2, fill: 'black', transform:"rotate(#{shift+300-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+        rect x: 0, y: 0, width: difference, height: 2, fill: '#dab97f', transform:"rotate(#{shift+300-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
     end
 
     term_height = term_height * 0.95
@@ -566,7 +553,7 @@ puts "DEG #{i} X1 #{x11}, Y1 #{y11}, X2 #{x21}, Y2 #{y21}"
 
 end
 
-svg.save 'pacman'
+svg.save 'chart'
 
 end
 

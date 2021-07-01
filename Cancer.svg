@@ -1,4 +1,42 @@
-<svg width="300" height="235" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path id="top" d="M300 57.23c-49.32-22.47-96.88-33.71-142.91-33.71-29.99 0-54.59 3.87-73.57 11.82A60 60.2 0 1 1 0 91.4C0 65.19 15.93 43.3 47.91 25.98S119.95 0 168.1 0C209.8 0 253.73 10.53 300 31.72ZM59.79 47.05a44.1 44.1 0 1 0 .02 0Z"/>
-<use xlink:href="#top" transform="rotate(180,150,117.5)"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="300"
+   height="235"
+   version="1.0"
+   id="svg889"
+   sodipodi:docname="Cancer.svg"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs893" />
+  <sodipodi:namedview
+     id="namedview891"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.6297872"
+     inkscape:cx="62.951348"
+     inkscape:cy="117.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1006"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg889" />
+  <path
+     id="top"
+     d="M300 57.23c-49.32-22.47-96.88-33.71-142.91-33.71-29.99 0-54.59 3.87-73.57 11.82A60 60.2 0 1 1 0 91.4C0 65.19 15.93 43.3 47.91 25.98S119.95 0 168.1 0C209.8 0 253.73 10.53 300 31.72ZM59.79 47.05a44.1 44.1 0 1 0 .02 0Z"
+     style="fill:#cfcfcf;fill-opacity:1" />
+  <use
+     xlink:href="#top"
+     transform="rotate(180,150,117.5)"
+     id="use887" />
 </svg>
