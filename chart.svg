@@ -422,41 +422,37 @@
 <image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(6.5, 10.0, 352.5)"/>
 <image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(1, 10.999999999999998, 353.5)"/>
 <image x="0" y="0" width="20.0" height="20.0" href="Uranus.svg" transform="translate(477.5, 345.0)
-                        rotate(120, 10.0, 142.5)
-                        rotate(240)"/>
+                            rotate(120, 10.0, 142.5)
+                            rotate(240)"/>
 <image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 365.0)
-                        rotate(115, 10.0, 122.5)
-                        rotate(245)"/>
+                            rotate(115, 10.0, 122.5)
+                            rotate(245)"/>
 <image x="0" y="0" width="20.0" height="20.0" href="Sun.svg" transform="translate(477.5, 345.0)
-                        rotate(110, 10.0, 142.5)
-                        rotate(250)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Neptune.svg" transform="translate(477.5, 365.0)
-                        rotate(95, 10.0, 122.5)
+                            rotate(110, 10.0, 142.5)
+                            rotate(250)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Neptune.svg" transform="translate(477.5, 345.0)
+                        rotate(100, 10.0, 142.5)
                         rotate(265)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="sn.svg" transform="translate(477.5, 365.0)
-                        rotate(67, 10.0, 122.5)"/>
 <image x="0" y="0" width="20.0" height="20.0" href="sn.svg" transform="translate(477.5, 345.0)
-                        rotate(67, 10.0, 142.5)
-                        rotate(293)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Venus.svg" transform="translate(477.5, 365.0)
-                        rotate(65, 10.0, 122.5)
+                            rotate(67, 10.0, 142.5)
+                            rotate(293)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Venus.svg" transform="translate(477.5, 345.0)
+                        rotate(70, 10.0, 142.5)
                         rotate(295)"/>
 <image x="0" y="0" width="20.0" height="20.0" href="asc.svg" transform="translate(477.5, 345.0)
-                        rotate(178, 10.0, 142.5)
-                        rotate(182)"/>
+                            rotate(178, 10.0, 142.5)
+                            rotate(182)"/>
 <image x="0" y="0" width="20.0" height="20.0" href="Saturn.svg" transform="translate(477.5, 365.0)
-                        rotate(161, 10.0, 122.5)
-                        rotate(199)"/>
+                            rotate(161, 10.0, 122.5)
+                            rotate(199)"/>
 <image x="0" y="0" width="20.0" height="20.0" href="Pluto.svg" transform="translate(477.5, 345.0)
-                        rotate(155, 10.0, 142.5)
+                        rotate(160, 10.0, 142.5)
                         rotate(205)"/>
 <image x="0" y="0" width="20.0" height="20.0" href="mc.svg" transform="translate(477.5, 345.0)
-                        rotate(268, 10.0, 142.5)
-                        rotate(92)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="nn.svg" transform="translate(477.5, 365.0)
-                        rotate(247, 10.0, 122.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="nn.svg" transform="translate(477.5, 365.0)
-                        rotate(247, 10.0, 122.5)
+                            rotate(268, 10.0, 142.5)
+                            rotate(92)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="nn.svg" transform="translate(477.5, 345.0)
+                        rotate(247, 10.0, 142.5)
                         rotate(113)"/>
 
 </svg>

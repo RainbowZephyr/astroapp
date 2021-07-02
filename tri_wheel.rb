@@ -622,32 +622,50 @@ def main
             if planets.length >  1
                 planets.sort! {|h1, h2| h1.values <=> h2.values}
                 c=0
-                for p in planets
-                    puts "P #{p}"
+                for p in 0...planets.length
+                    puts "P #{planets[p]}"
 
-                    if p.keys[0] == "nn" || p.keys[0] == "sn"
-                        # term_height = term_height * 0.85
-                        image x: 0, y: 0, width: w, height: term_height, href:"#{p.keys[0]}.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*7.75+(difference-term_height)/2.0})
-                        rotate(#{shift+degree(sign, p.values[0])}, #{w/2.0}, #{outer_radius-difference*7.75-(difference-term_height)/2.0})"
-                    end
-
+                    # if p.keys[0] == "nn" || p.keys[0] == "sn"
+                    #     # term_height = term_height * 0.85
+                    #     image x: 0, y: 0, width: w, height: term_height, href:"#{p.keys[0]}.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*7.75+(difference-term_height)/2.0})
+                    #     rotate(#{shift+degree(sign, p.values[0])-5}, #{w/2.0}, #{outer_radius-difference*7.75-(difference-term_height)/2.0})
+                    #     rotate(#{360-degree(sign, p.values[0])})"
+                    #
+                    # end
                     w = 50 / (50/term_height)
-                    if c % 2 ==0
-                        image x: 0, y: 0, width: w, height: term_height, href:"#{p.keys[0]}.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*7.25+(difference-term_height)/2.0})
-                        rotate(#{shift+degree(sign, p.values[0])}, #{w/2.0}, #{outer_radius-difference*7.25-(difference-term_height)/2.0})
-                        rotate(#{360-degree(sign, p.values[0])})"
-                    else
-                        image x: 0, y: 0, width: w, height: term_height, href:"#{p.keys[0]}.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*7.75+(difference-term_height)/2.0})
-                        rotate(#{shift+degree(sign, p.values[0])}, #{w/2.0}, #{outer_radius-difference*7.75-(difference-term_height)/2.0})
-                        rotate(#{360-degree(sign, p.values[0])})"
+
+                    if planets[p].values[0] >= 25
+                        shift  = shift + 5
                     end
 
-                    if p.keys[0] == "nn" || p.keys[0] == "sn"
+                    # check difference between consecutive planets
+                    if ((p < planets.length-1) && (planets[p].values[0] - planets[p+1].values[0] < 6))
+                        if c % 2 ==0
+                            image x: 0, y: 0, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*7.25+(difference-term_height)/2.0})
+                            rotate(#{shift+degree(sign, planets[p].values[0])}, #{w/2.0}, #{outer_radius-difference*7.25-(difference-term_height)/2.0})
+                            rotate(#{360-degree(sign, planets[p].values[0])})"
+                        else
+                            image x: 0, y: 0, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*7.75+(difference-term_height)/2.0})
+                            rotate(#{shift+degree(sign, planets[p].values[0])}, #{w/2.0}, #{outer_radius-difference*7.75-(difference-term_height)/2.0})
+                            rotate(#{360-degree(sign, planets[p].values[0])})"
+                        end
+                        c+=1
+                    else
+                        image x: 0, y: 0, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*7.25+(difference-term_height)/2.0})
+                        rotate(#{shift+degree(sign, planets[p].values[0])}, #{w/2.0}, #{outer_radius-difference*7.25-(difference-term_height)/2.0})
+                        rotate(#{360-degree(sign, planets[p].values[0])})"
+
+                    end
+
+                    if planets[p].keys[0] == "nn" || planets[p].keys[0] == "sn"
                         # term_height = term_height / 0.85
                     end
 
+                    if planets[p].values[0] >= 25
+                        shift  = shift - 5
+                    end
 
-                    c+=1
+                    # c+=1
                 end
             end
 
@@ -658,4 +676,4 @@ def main
 
     end
 end
-    main
+main
