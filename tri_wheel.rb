@@ -619,64 +619,71 @@ def main
 
         read_placements "placements.csv"
         w = 50 / (50/term_height)
+        factors = [7.25, 5.25,3.5]
+        factor_counter=0
+        placements = [$natal, $progressed, $transit]
+        for h in placements
+            factor = 7.25
+            for sign, planets in h
+                planets.sort! {|h1, h2| h1.values <=> h2.values}
 
-        for sign, planets in $natal
-            planets.sort! {|h1, h2| h1.values <=> h2.values}
-            puts "SIGN #{sign} PLANETS #{planets} w #{w}"
-            lift = false
+                lift = false
 
-            for p in 0...planets.length
+                for p in 0...planets.length
 
-                angle = 270-degree(sign, planets[p].values[0])-shift
+                    angle = 270-degree(sign, planets[p].values[0])-shift
 
-                if angle < 0
-                    angle = angle + 360
-                end
-
-                if angle % 90 == 0
-                    angle += 1
-
-                end
-
-                xc,yc = coordinates(angle, outer_radius-difference*7.25)
-                txc,tyc = coordinates(angle, outer_radius-difference*7.7)
-                puts "P #{planets[p]} angle #{angle} radius #{outer_radius-difference*7} coord #{[xc,yc]}"
-
-
-                if p < planets.length-1 && planets.length > 1 && planets[p+1].values[0] - planets[p].values[0] < 6
-                    if lift || planets.length == 2
-                        xc,yc = coordinates(angle, outer_radius-difference*8.3)
-                        txc,tyc = coordinates(angle, outer_radius-difference*8.75)
+                    if angle < 0
+                        angle = angle + 360
                     end
-                    lift = !lift
-                end
 
-                if angle > 0 && angle <= 90
+                    if angle % 90 == 0
+                        angle += 1
+
+                    end
+
+                    xc,yc = coordinates(angle, outer_radius-difference*factors[factor_counter])
+                    txc,tyc = coordinates(angle, outer_radius-difference*(factors[factor_counter]+0.45))
+                    puts "P #{planets[p]} angle #{angle} radius #{outer_radius-difference*7} coord #{[xc,yc]}"
 
 
-                    text "#{planets[p].values[0]}°", x: center+txc-term_height*0.6, y: center+tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
+                    if p < planets.length-1 && planets.length > 1 && planets[p+1].values[0] - planets[p].values[0] < 6
+                        if lift || planets.length == 2
+                            xc,yc = coordinates(angle, outer_radius-difference*(factors[factor_counter]+1.05))
+                            txc,tyc = coordinates(angle, outer_radius-difference*(factors[factor_counter]+1.5))
+                        end
+                        lift = !lift
+                    end
 
-                    image x: center+xc-w/2, y:  center+yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
-                elsif angle > 90 && angle <= 180
+                    if angle > 0 && angle <= 90
 
-                    text "#{planets[p].values[0]}°", x: center-txc-term_height*0.6, y: center+tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
 
-                    image x: center-xc-w/2, y:  center+yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
-                elsif angle > 180 && angle <= 270
+                        text "#{planets[p].values[0]}°", x: center+txc-term_height*0.6, y: center+tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
 
-                    text "#{planets[p].values[0]}°", x: center-txc+term_height*0.6, y: center-tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
+                        image x: center+xc-w/2, y:  center+yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
+                    elsif angle > 90 && angle <= 180
 
-                    image x: center-xc-w/2, y:  center-yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
-                elsif angle > 270 && angle <= 360
-                    text "#{planets[p].values[0]}°", x: center+txc, y: center-tyc+term_height*0.6, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
+                        text "#{planets[p].values[0]}°", x: center-txc-term_height*0.6, y: center+tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
 
-                    image x: center+xc-w/2, y:  center-yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
+                        image x: center-xc-w/2, y:  center+yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
+                    elsif angle > 180 && angle <= 270
+
+                        text "#{planets[p].values[0]}°", x: center-txc+term_height*0.6, y: center-tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
+
+                        image x: center-xc-w/2, y:  center-yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
+                    elsif angle > 270 && angle <= 360
+                        text "#{planets[p].values[0]}°", x: center+txc, y: center-tyc+term_height*0.6, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
+
+                        image x: center+xc-w/2, y:  center-yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
+                    end
+
                 end
 
             end
-
+            if factor_counter < factors.length-1
+                factor_counter += 1
+            end
         end
-
         svg.save 'chart'
 
     end
