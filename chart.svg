@@ -6,83 +6,83 @@
   xmlns:xlink="http://www.w3.org/1999/xlink">
 
 
-<rect x="0" y="0" width="975" height="975" fill="#242526"/>
-<circle cx="487.5" cy="487.5" r="442.5" stroke="#dab97f" fill="none" stroke-width="2px"/>
-<circle cx="487.5" cy="487.5" r="390.0" stroke="#dab97f" fill="none" stroke-width="2px"/>
-<circle cx="487.5" cy="487.5" r="337.5" stroke="#dab97f" fill="none" stroke-width="2px"/>
-<circle cx="487.5" cy="487.5" r="285.0" stroke="#dab97f" fill="none" stroke-width="2px"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(0, 487.5, 487.5) translate(877.5, 487.5)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(30, 487.5, 487.5) translate(877.5, 487.5)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(60, 487.5, 487.5) translate(877.5, 487.5)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(90, 487.5, 487.5) translate(877.5, 487.5)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(120, 487.5, 487.5) translate(877.5, 487.5)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(150, 487.5, 487.5) translate(877.5, 487.5)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(180, 487.5, 487.5) translate(877.5, 487.5)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(210, 487.5, 487.5) translate(877.5, 487.5)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(240, 487.5, 487.5) translate(877.5, 487.5)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(270, 487.5, 487.5) translate(877.5, 487.5)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(300, 487.5, 487.5) translate(877.5, 487.5)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(330, 487.5, 487.5) translate(877.5, 487.5)"/>
-<circle cx="487.5" cy="487.5" r="206.25" stroke="#dab97f" fill="none" stroke-width="2px"/>
-<circle cx="487.5" cy="487.5" r="127.5" stroke="#dab97f" fill="none" stroke-width="2px"/>
-<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#4d4d4d" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(0, 487.5, 487.5)"/>
-<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#4d4d4d" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(30, 487.5, 487.5)"/>
-<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#4d4d4d" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(60, 487.5, 487.5)"/>
-<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#4d4d4d" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(90, 487.5, 487.5)"/>
-<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#4d4d4d" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(120, 487.5, 487.5)"/>
-<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#4d4d4d" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(150, 487.5, 487.5)"/>
-<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#4d4d4d" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(180, 487.5, 487.5)"/>
-<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#4d4d4d" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(210, 487.5, 487.5)"/>
-<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#4d4d4d" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(240, 487.5, 487.5)"/>
-<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#4d4d4d" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(270, 487.5, 487.5)"/>
-<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#4d4d4d" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(300, 487.5, 487.5)"/>
-<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#4d4d4d" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(330, 487.5, 487.5)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(0, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(10, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(20, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(30, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(40, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(50, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(60, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(70, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(80, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(90, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(100, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(110, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(120, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(130, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(140, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(150, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(160, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(170, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(180, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(190, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(200, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(210, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(220, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(230, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(240, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(250, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(260, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(270, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(280, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(290, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(300, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(310, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(320, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(330, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(340, 487.5, 487.5)     translate(825.0, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(350, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="975" height="975" fill="#151414"/>
+<circle cx="487.5" cy="487.5" r="442.5" stroke="#CC6D51" fill="none" stroke-width="2px"/>
+<circle cx="487.5" cy="487.5" r="390.0" stroke="#CC6D51" fill="none" stroke-width="2px"/>
+<circle cx="487.5" cy="487.5" r="337.5" stroke="#CC6D51" fill="none" stroke-width="2px"/>
+<circle cx="487.5" cy="487.5" r="285.0" stroke="#CC6D51" fill="none" stroke-width="2px"/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(0, 487.5, 487.5) translate(877.5, 487.5)"/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(30, 487.5, 487.5) translate(877.5, 487.5)"/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(60, 487.5, 487.5) translate(877.5, 487.5)"/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(90, 487.5, 487.5) translate(877.5, 487.5)"/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(120, 487.5, 487.5) translate(877.5, 487.5)"/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(150, 487.5, 487.5) translate(877.5, 487.5)"/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(180, 487.5, 487.5) translate(877.5, 487.5)"/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(210, 487.5, 487.5) translate(877.5, 487.5)"/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(240, 487.5, 487.5) translate(877.5, 487.5)"/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(270, 487.5, 487.5) translate(877.5, 487.5)"/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(300, 487.5, 487.5) translate(877.5, 487.5)"/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(330, 487.5, 487.5) translate(877.5, 487.5)"/>
+<circle cx="487.5" cy="487.5" r="206.25" stroke="#CC6D51" fill="none" stroke-width="2px"/>
+<circle cx="487.5" cy="487.5" r="127.5" stroke="#CC6D51" fill="none" stroke-width="2px"/>
+<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#3B3A39" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(0, 487.5, 487.5)"/>
+<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#3B3A39" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(30, 487.5, 487.5)"/>
+<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#3B3A39" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(60, 487.5, 487.5)"/>
+<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#3B3A39" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(90, 487.5, 487.5)"/>
+<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#3B3A39" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(120, 487.5, 487.5)"/>
+<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#3B3A39" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(150, 487.5, 487.5)"/>
+<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#3B3A39" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(180, 487.5, 487.5)"/>
+<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#3B3A39" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(210, 487.5, 487.5)"/>
+<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#3B3A39" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(240, 487.5, 487.5)"/>
+<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#3B3A39" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(270, 487.5, 487.5)"/>
+<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#3B3A39" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(300, 487.5, 487.5)"/>
+<line x1="202.5" y1="486.5" x2="487.5" y2="487.5" stroke="#3B3A39" stroke-width="2" stroke-dasharray="10 5 4" transform="rotate(330, 487.5, 487.5)"/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(0, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(10, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(20, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(30, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(40, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(50, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(60, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(70, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(80, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(90, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(100, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(110, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(120, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(130, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(140, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(150, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(160, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(170, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(180, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(190, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(200, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(210, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(220, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(230, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(240, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(250, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(260, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(270, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(280, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(290, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(300, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(310, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(320, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(330, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(340, 487.5, 487.5)     translate(825.0, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(350, 487.5, 487.5)     translate(825.0, 487.5) "/>
 <image x="0" y="0" width="42.07171314741036" height="40.0" href="Aries.svg" transform="translate(466.4641434262948, 51.25) rotate(345, 21.03585657370518, 436.25)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Mars.svg" transform="translate(467.5, 103.75) rotate(355, 20.0, 383.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Sun.svg" transform="translate(467.5, 103.75) rotate(345, 20.0, 383.75)"/>
 <image x="0" y="0" width="38.0" height="38.0" href="Venus.svg" transform="translate(468.5, 104.75) rotate(335, 19.0, 382.75)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(270, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(264, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(258, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(250, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(245, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(240, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(270, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(264, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(258, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(250, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(245, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(240, 487.5, 487.5) translate(772.5, 487.5) "/>
 <image x="0" y="0" width="50" height="30" href="Jupiter.svg" transform="translate(462.5, 161.25) rotate(357, 25.0, 326.25)"/>
 <image x="0" y="0" width="28.499999999999996" height="28.5" href="Venus.svg" transform="translate(473.25, 162.0) rotate(351, 14.249999999999998, 325.5)"/>
 <image x="0" y="0" width="30.0" height="30.0" href="Mercury.svg" transform="translate(472.5, 161.25) rotate(344, 15.0, 326.25)"/>
@@ -92,12 +92,12 @@
 <image x="0" y="0" width="40.0" height="40.0" href="Mercury.svg" transform="translate(467.5, 103.75) rotate(325, 20.0, 383.75)"/>
 <image x="0" y="0" width="32.0" height="32.0" href="Moon.svg" transform="translate(471.5, 107.75) rotate(315, 16.0, 379.75)"/>
 <image x="0" y="0" width="43.99999999999999" height="44.0" href="Saturn.svg" transform="translate(465.5, 101.75) rotate(305, 21.999999999999996, 385.75)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(240, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(232, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(226, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(218, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(213, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(210, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(240, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(232, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(226, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(218, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(213, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(210, 487.5, 487.5) translate(772.5, 487.5) "/>
 <image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 162.0) rotate(326, 14.249999999999998, 325.5)"/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 161.25) rotate(319, 14.999999999999998, 326.25)"/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 161.25) rotate(312, 14.999999999999998, 326.25)"/>
@@ -107,12 +107,12 @@
 <image x="0" y="0" width="40.0" height="40.0" href="Jupiter.svg" transform="translate(467.5, 103.75) rotate(295, 20.0, 383.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Mars.svg" transform="translate(467.5, 103.75) rotate(285, 20.0, 383.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Sun.svg" transform="translate(467.5, 103.75) rotate(275, 20.0, 383.75)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(210, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(204, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(198, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(193, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(186, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(180, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(210, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(204, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(198, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(193, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(186, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(180, 487.5, 487.5) translate(772.5, 487.5) "/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 161.25) rotate(297, 14.999999999999998, 326.25)"/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 161.25) rotate(291, 14.999999999999998, 326.25)"/>
 <image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 162.0) rotate(285.5, 14.249999999999998, 325.5)"/>
@@ -122,12 +122,12 @@
 <image x="0" y="0" width="38.0" height="38.0" href="Venus.svg" transform="translate(468.5, 104.75) rotate(265, 19.0, 382.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Mercury.svg" transform="translate(467.5, 103.75) rotate(255, 20.0, 383.75)"/>
 <image x="0" y="0" width="32.0" height="32.0" href="Moon.svg" transform="translate(471.5, 107.75) rotate(245, 16.0, 379.75)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(180, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(173, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(167, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(162, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(154, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(150, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(180, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(173, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(167, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(162, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(154, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(150, 487.5, 487.5) translate(772.5, 487.5) "/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mars.svg" transform="translate(472.5, 161.25) rotate(266.5, 14.999999999999998, 326.25)"/>
 <image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 162.0) rotate(260, 14.249999999999998, 325.5)"/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 161.25) rotate(254.5, 14.999999999999998, 326.25)"/>
@@ -137,12 +137,12 @@
 <image x="0" y="0" width="43.99999999999999" height="44.0" href="Saturn.svg" transform="translate(465.5, 101.75) rotate(235, 21.999999999999996, 385.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Jupiter.svg" transform="translate(467.5, 103.75) rotate(225, 20.0, 383.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Mars.svg" transform="translate(467.5, 103.75) rotate(215, 20.0, 383.75)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(150, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(144, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(139, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(132, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(126, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(120, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(150, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(144, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(139, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(132, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(126, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(120, 487.5, 487.5) translate(772.5, 487.5) "/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 161.25) rotate(237, 14.999999999999998, 326.25)"/>
 <image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 162.0) rotate(231.5, 14.249999999999998, 325.5)"/>
 <image x="0" y="0" width="33.0" height="33.0" href="Saturn.svg" transform="translate(471.0, 159.75) rotate(225.5, 16.5, 327.75)"/>
@@ -152,12 +152,12 @@
 <image x="0" y="0" width="40.0" height="40.0" href="Sun.svg" transform="translate(467.5, 103.75) rotate(205, 20.0, 383.75)"/>
 <image x="0" y="0" width="38.0" height="38.0" href="Venus.svg" transform="translate(468.5, 104.75) rotate(195, 19.0, 382.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Mercury.svg" transform="translate(467.5, 103.75) rotate(185, 20.0, 383.75)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(120, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(113, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(103, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(99, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(92, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(90, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(120, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(113, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(103, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(99, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(92, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(90, 487.5, 487.5) translate(772.5, 487.5) "/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 161.25) rotate(206.5, 14.999999999999998, 326.25)"/>
 <image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 162.0) rotate(198, 14.249999999999998, 325.5)"/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 161.25) rotate(191, 14.999999999999998, 326.25)"/>
@@ -167,12 +167,12 @@
 <image x="0" y="0" width="32.0" height="32.0" href="Moon.svg" transform="translate(471.5, 107.75) rotate(175, 16.0, 379.75)"/>
 <image x="0" y="0" width="43.99999999999999" height="44.0" href="Saturn.svg" transform="translate(465.5, 101.75) rotate(165, 21.999999999999996, 385.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Jupiter.svg" transform="translate(467.5, 103.75) rotate(155, 20.0, 383.75)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(90, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(84, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(76, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(69, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(62, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(60, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(90, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(84, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(76, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(69, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(62, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(60, 487.5, 487.5) translate(772.5, 487.5) "/>
 <image x="0" y="0" width="33.0" height="33.0" href="Saturn.svg" transform="translate(471.0, 159.75) rotate(177, 16.5, 327.75)"/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 161.25) rotate(170, 14.999999999999998, 326.25)"/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 161.25) rotate(162.5, 14.999999999999998, 326.25)"/>
@@ -182,12 +182,12 @@
 <image x="0" y="0" width="40.0" height="40.0" href="Mars.svg" transform="translate(467.5, 103.75) rotate(145, 20.0, 383.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Sun.svg" transform="translate(467.5, 103.75) rotate(135, 20.0, 383.75)"/>
 <image x="0" y="0" width="38.0" height="38.0" href="Venus.svg" transform="translate(468.5, 104.75) rotate(125, 19.0, 382.75)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(60, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(53, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(49, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(41, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(36, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(30, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(60, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(53, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(49, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(41, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(36, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(30, 487.5, 487.5) translate(772.5, 487.5) "/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mars.svg" transform="translate(472.5, 161.25) rotate(146.5, 14.999999999999998, 326.25)"/>
 <image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 162.0) rotate(141.5, 14.249999999999998, 325.5)"/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 161.25) rotate(135, 14.999999999999998, 326.25)"/>
@@ -197,12 +197,12 @@
 <image x="0" y="0" width="40.0" height="40.0" href="Mercury.svg" transform="translate(467.5, 103.75) rotate(115, 20.0, 383.75)"/>
 <image x="0" y="0" width="32.0" height="32.0" href="Moon.svg" transform="translate(471.5, 107.75) rotate(105, 16.0, 379.75)"/>
 <image x="0" y="0" width="43.99999999999999" height="44.0" href="Saturn.svg" transform="translate(465.5, 101.75) rotate(95, 21.999999999999996, 385.75)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(30, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(18, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(13, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(9, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(4, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(0, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(30, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(18, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(13, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(9, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(4, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(0, 487.5, 487.5) translate(772.5, 487.5) "/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 161.25) rotate(114, 14.999999999999998, 326.25)"/>
 <image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 162.0) rotate(105.5, 14.249999999999998, 325.5)"/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 161.25) rotate(101, 14.999999999999998, 326.25)"/>
@@ -212,12 +212,12 @@
 <image x="0" y="0" width="40.0" height="40.0" href="Jupiter.svg" transform="translate(467.5, 103.75) rotate(85, 20.0, 383.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Mars.svg" transform="translate(467.5, 103.75) rotate(75, 20.0, 383.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Sun.svg" transform="translate(467.5, 103.75) rotate(65, 20.0, 383.75)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(0, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(-7, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(-14, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(-22, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(-26, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(-30, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(0, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(-7, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(-14, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(-22, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(-26, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(-30, 487.5, 487.5) translate(772.5, 487.5) "/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 161.25) rotate(87, 14.999999999999998, 326.25)"/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 161.25) rotate(79.5, 14.999999999999998, 326.25)"/>
 <image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 162.0) rotate(72, 14.249999999999998, 325.5)"/>
@@ -227,12 +227,12 @@
 <image x="0" y="0" width="38.0" height="38.0" href="Venus.svg" transform="translate(468.5, 104.75) rotate(55, 19.0, 382.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Mercury.svg" transform="translate(467.5, 103.75) rotate(45, 20.0, 383.75)"/>
 <image x="0" y="0" width="32.0" height="32.0" href="Moon.svg" transform="translate(471.5, 107.75) rotate(35, 16.0, 379.75)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(330, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(323, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(317, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(310, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(305, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(300, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(330, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(323, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(317, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(310, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(305, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(300, 487.5, 487.5) translate(772.5, 487.5) "/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 161.25) rotate(56.5, 14.999999999999998, 326.25)"/>
 <image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 162.0) rotate(50, 14.249999999999998, 325.5)"/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 161.25) rotate(43.5, 14.999999999999998, 326.25)"/>
@@ -242,12 +242,12 @@
 <image x="0" y="0" width="43.99999999999999" height="44.0" href="Saturn.svg" transform="translate(465.5, 101.75) rotate(25, 21.999999999999996, 385.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Jupiter.svg" transform="translate(467.5, 103.75) rotate(15, 20.0, 383.75)"/>
 <image x="0" y="0" width="40.0" height="40.0" href="Mars.svg" transform="translate(467.5, 103.75) rotate(5, 20.0, 383.75)"/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(300, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(288, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(284, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(281, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(272, 487.5, 487.5) translate(772.5, 487.5) "/>
-<rect x="0" y="0" width="52.5" height="2" fill="#dab97f" transform="rotate(270, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(300, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(288, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(284, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(281, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(272, 487.5, 487.5) translate(772.5, 487.5) "/>
+<rect x="0" y="0" width="52.5" height="2" fill="#CC6D51" transform="rotate(270, 487.5, 487.5) translate(772.5, 487.5) "/>
 <image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 162.0) rotate(24, 14.249999999999998, 325.5)"/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 161.25) rotate(16, 14.999999999999998, 326.25)"/>
 <image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 161.25) rotate(12.5, 14.999999999999998, 326.25)"/>
