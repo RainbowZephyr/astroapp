@@ -85,19 +85,19 @@ def main
         xc,yc = coordinates(angle, outer_radius)
         puts "angle #{angle}"
         if angle > 0 && angle <= 90
-        circle cx: center+xc, cy: center+yc, r: 5, stroke: 'red', fill: 'none', stroke_width: '2px'
+            circle cx: center+xc, cy: center+yc, r: 5, stroke: 'red', fill: 'none', stroke_width: '2px'
 
-    
-elsif angle > 90 && angle <= 180
-    circle cx: center-xc, cy: center+yc, r: 5, stroke: 'red', fill: 'none', stroke_width: '2px'
-elsif angle > 180 && angle <= 270
 
-    circle cx: center-xc, cy: center-yc, r: 5, stroke: 'red', fill: 'none', stroke_width: '2px'
-elsif angle > 270 && angle <= 360
+        elsif angle > 90 && angle <= 180
+            circle cx: center-xc, cy: center+yc, r: 5, stroke: 'red', fill: 'none', stroke_width: '2px'
+        elsif angle > 180 && angle <= 270
 
-    circle cx: center+xc, cy: center-yc, r: 5, stroke: 'red', fill: 'none', stroke_width: '2px'
-    
-end
+            circle cx: center-xc, cy: center-yc, r: 5, stroke: 'red', fill: 'none', stroke_width: '2px'
+        elsif angle > 270 && angle <= 360
+
+            circle cx: center+xc, cy: center-yc, r: 5, stroke: 'red', fill: 'none', stroke_width: '2px'
+
+        end
 
 
         #Outer circles
@@ -638,22 +638,12 @@ end
         read_placements "placements.csv"
         w = 50 / (50/term_height)
 
-        ##{shift+degree($df["natal_sign"][p], $df["natal_degree"][p])}, #{term_height/2}, #{term_height/2}
-        # for p in $planets
-        # image x: 0, y: 0, width: w, height: term_height, href:"#{p}.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*7.25+(difference-term_height)/2.0})
-        # rotate(#{shift+degree($df["natal_sign"][p], $df["natal_degree"][p])}, #{w/2.0}, #{outer_radius-difference*7.25-(difference-term_height)/2.0})
-        # rotate(#{360-degree($df["natal_sign"][p], $df["natal_degree"][p])})"
-
-        # puts "Deg #{degree($df["natal_sign"][p], $df["natal_degree"][p])}"
-        # end
-
         for sign, planets in $natal
             planets.sort! {|h1, h2| h1.values <=> h2.values}
             puts "SIGN #{sign} PLANETS #{planets} w #{w}"
-            
-            
+
             for p in 0...planets.length
-     
+
                 angle = 270-degree(sign, planets[p].values[0])-shift
 
                 if angle < 0
@@ -661,93 +651,64 @@ end
                 end
 
                 xc,yc = coordinates(angle, outer_radius-difference*7.25)
-
+                txc,tyc = coordinates(angle, outer_radius-difference*7.7)
                 puts "P #{planets[p]} angle #{angle} radius #{outer_radius-difference*7} coord #{[xc,yc]}"
+
+                overlap = false
+
+                if p < planets.length-1 && planets.length > 1 && planets[p+1].values[0] - planets[p].values[0] < 6
+                    overlap = true
+
+                end
 
                 if angle > 0 && angle <= 90
 
+                    if overlap
+                        xc = xc - w
+                        yc = yc - term_height
+                        txc = txc - term_height * 0.6
+                        tyc = tyc - term_height * 0.6
+                    end
+
+                    text "#{planets[p].values[0]}°", x: center+txc-term_height*0.6, y: center+tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
+
                     image x: center+xc-w/2, y:  center+yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
-            
-                
-            elsif angle > 90 && angle <= 180
+                elsif angle > 90 && angle <= 180
+                    if overlap
+                        xc = xc + w
+                        yc = yc - term_height
+                        txc = txc + term_height * 0.6
+                        tyc = tyc - term_height * 0.6
+                    end
 
-                image x: center-xc-w/2, y:  center+yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
+                    text "#{planets[p].values[0]}°", x: center-txc-term_height*0.6, y: center+tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
 
-            elsif angle > 180 && angle <= 270
-            
-                
-                image x: center-xc+w/2, y:  center-yc+term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
+                    image x: center-xc-w/2, y:  center+yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
+                elsif angle > 180 && angle <= 270
+                    if overlap
+                        xc = xc + w
+                        yc = yc + term_height
+                        txc = txc + term_height * 0.6
+                        tyc = tyc + term_height * 0.6
+                    end
 
-            elsif angle > 270 && angle <= 360
-            
-                
-                image x: center+xc-w/2, y:  center-yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
-                
+                    text "#{planets[p].values[0]}°", x: center-txc-term_height*0.6, y: center-tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
+
+                    image x: center-xc+w/2, y:  center-yc+term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
+                elsif angle > 270 && angle <= 360
+                    if overlap
+                        xc = xc - w
+                        yc = yc - term_height
+                        txc = txc - term_height * 0.6
+                        tyc = tyc - term_height * 0.6
+                    end
+
+                    text "#{planets[p].values[0]}°", x: center+txc, y: center-tyc+term_height*0.6, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
+
+                    image x: center+xc-w/2, y:  center-yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
+                end
+
             end
-
-            end
-
-            # if planets.length >  1
-            #     planets.sort! {|h1, h2| h1.values <=> h2.values}
-            #     c=0
-            #     for p in 0...planets.length
-            #         puts "P #{planets[p]}"
-
-            #         # if p.keys[0] == "nn" || p.keys[0] == "sn"
-            #         #     # term_height = term_height * 0.85
-            #         #     image x: 0, y: 0, width: w, height: term_height, href:"#{p.keys[0]}.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*7.75+(difference-term_height)/2.0})
-            #         #     rotate(#{shift+degree(sign, p.values[0])-5}, #{w/2.0}, #{outer_radius-difference*7.75-(difference-term_height)/2.0})
-            #         #     rotate(#{360-degree(sign, p.values[0])})"
-            #         #
-            #         # end
-            #         w = 50 / (50/term_height)
-
-                    # if planets[p].values[0] >= 25
-                        # shift  = shift + 5
-                    # end
-
-                    # check difference between consecutive planets
-            #         if ((p < planets.length-1) && (planets[p+1].values[0] - planets[p].values[0] < 6))
-            #             if c % 2 ==0
-            #                 puts "P #{planets[p]} ONE" 
-            #                 image x: 0, y: 0, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*7.25+(difference-term_height)/2.0})
-            #                 rotate(#{degree(sign, planets[p].values[0]+shift)}, #{w/2.0}, #{outer_radius-difference*7.25-(difference-term_height)/2.0})
-            #                 rotate(#{360-degree(sign, planets[p].values[0]+shift)})"
-            #             else
-            #                 puts "P #{planets[p]} TWO" 
-
-            #                 image x: 0, y: 0, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*7.75+(difference-term_height)/2.0})
-            #                 rotate(#{degree(sign, planets[p].values[0]+shift)}, #{w/2.0}, #{outer_radius-difference*7.75-(difference-term_height)/2.0})
-            #                 rotate(#{360-degree(sign, planets[p].values[0]+shift)})"
-            #             end
-            #             c+=1
-            #         else
-            #             puts "P #{planets[p]} Three" 
-
-            #             image x: 0, y: 0, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*7.25+(difference-term_height)/2.0})
-            #             rotate(#{shift+degree(sign, planets[p].values[0])}, #{w/2.0}, #{outer_radius-difference*7.25-(difference-term_height)/2.0})
-            #             rotate(#{360-degree(sign, planets[p].values[0]+shift)})"
-
-            #         end
-
-            #         # if planets[p].keys[0] == "nn" || planets[p].keys[0] == "sn"
-            #         #     # term_height = term_height / 0.85
-            #         # end
-
-            #         # if planets[p].values[0] >= 25
-            #         #     shift  = shift - 5
-            #         # end
-
-            #         # c+=1
-            #     end
-
-            # else 
-            #     puts "P #{planets[p]} Four"
-            #     image x: 0, y: 0, width: w, height: term_height, href:"#{planets[0].keys[0]}.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*7.25+(difference-term_height)/2.0})
-            #     rotate(#{degree(sign, planets[0].values[0])-shift}, #{w/2.0}, #{outer_radius-difference*7.25-(difference-term_height)/2.0})
-            #     rotate(#{360-degree(sign, planets[0].values[0]+shift)})"
-            # end
-
 
         end
 

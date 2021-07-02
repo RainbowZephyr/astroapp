@@ -422,18 +422,57 @@
 <image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(42.5, 10.0, 352.5)"/>
 <image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(36.5, 10.0, 352.5)"/>
 <image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(31, 10.999999999999998, 353.5)"/>
-<image x="629.4196914589912" y="464.2087492309821" width="20.0" height="20.0" href="Mercury.svg"/>
+<text x="609.4881868933397" y="499.7775526004398" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+5°
+</text>
+<image x="609.4196914589912" y="484.2087492309821" width="20.0" height="20.0" href="Mercury.svg"/>
+<text x="619.9566427801419" y="476.1443201037978" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+10°
+</text>
 <image x="627.6831823343617" y="451.018652905793" width="20.0" height="20.0" href="Sun.svg"/>
+<text x="609.3983973564294" y="442.65784379587586" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+25°
+</text>
 <image x="615.7119375230891" y="413.0507150845432" width="20.0" height="20.0" href="Neptune.svg"/>
+<text x="529.0627857434304" y="371.58289855830185" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+12°
+</text>
 <image x="524.6250916421794" y="332.4638812649891" width="20.0" height="20.0" href="Moon.svg"/>
-<image x="569.2767910306873" y="355.7080847177878" width="20.0" height="20.0" href="sn.svg"/>
+<text x="556.4441206139504" y="404.0835238986391" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+23°
+</text>
+<image x="549.2767910306873" y="375.7080847177878" width="20.0" height="20.0" href="sn.svg"/>
+<text x="564.6460306892156" y="389.32405004313057" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+25°
+</text>
 <image x="564.9704065435345" y="352.57931324592874" width="20.0" height="20.0" href="Venus.svg"/>
+<text x="528.0533367818074" y="611.3079027893532" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+23°
+</text>
 <image x="537.0864970946143" y="617.8769901514971" width="20.0" height="20.0" href="Mars.svg"/>
+<text x="593.1363506102488" y="552.7068939231324" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+1°
+</text>
 <image x="610.8795053387578" y="551.4334670875664" width="20.0" height="20.0" href="Jupiter.svg"/>
+<text x="546.7741410393661" y="601.5624689330393" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+2°
+</text>
 <image x="558.3126877955638" y="606.827334663855" width="20.0" height="20.0" href="asc.svg"/>
+<text x="577.0084385399629" y="575.7399393992232" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+19°
+</text>
 <image x="592.5932109839728" y="577.5490019210523" width="20.0" height="20.0" href="Saturn.svg"/>
+<text x="585.6759499568694" y="564.6460306892156" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+25°
+</text>
 <image x="602.4206867540713" y="564.9704065435345" width="20.0" height="20.0" href="Pluto.svg"/>
+<text x="361.4375310669607" y="558.7741410393661" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+2°
+</text>
 <image x="348.17266533614503" y="558.3126877955638" width="20.0" height="20.0" href="mc.svg"/>
+<text x="394.55587938604947" y="594.9164761013609" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+23°
+</text>
 <image x="385.7232089693126" y="599.2919152822121" width="20.0" height="20.0" href="nn.svg"/>
 
 </svg>
