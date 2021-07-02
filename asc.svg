@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="440"
+   height="440"
+   version="1.1"
+   viewBox="0 0 22 22"
+   id="svg4"
+   sodipodi:docname="asc.svg"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.3708229"
+     inkscape:cx="157.20484"
+     inkscape:cy="91.550849"
+     inkscape:window-width="1920"
+     inkscape:window-height="1006"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="11,11"
+       orientation="-1,0"
+       id="guide8387"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="11,11"
+       orientation="0,1"
+       id="guide8389"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <text
+     xml:space="preserve"
+     style="font-size:12.3575px;line-height:1.25;font-family:Copperplate;-inkscape-font-specification:Copperplate;stroke-width:0.061787"
+     x="-0.026844025"
+     y="15.159618"
+     id="text2443"><tspan
+       sodipodi:role="line"
+       id="tspan2441"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.3575px;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#cfcfcf;fill-opacity:1;stroke-width:0.061787"
+       x="-0.026844025"
+       y="15.159618">ASC</tspan></text>
+</svg>

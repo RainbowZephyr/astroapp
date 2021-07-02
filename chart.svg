@@ -7,6 +7,7 @@
 
 
 <rect x="0" y="0" width="975" height="975" fill="#151414"/>
+<circle cx="624.2400200109141" cy="66.65749153939453" r="5" stroke="red" fill="none" stroke-width="2px"/>
 <circle cx="487.5" cy="487.5" r="442.5" stroke="#CC6D51" fill="none" stroke-width="2px"/>
 <circle cx="487.5" cy="487.5" r="402.5" stroke="#CC6D51" fill="none" stroke-width="2px"/>
 <circle cx="487.5" cy="487.5" r="362.5" stroke="#CC6D51" fill="none" stroke-width="2px"/>
@@ -241,218 +242,198 @@
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(330, 487.5, 487.5)     translate(850.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(340, 487.5, 487.5)     translate(850.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(350, 487.5, 487.5)     translate(850.0, 487.5) "/>
-<image x="0" y="0" width="31.553784860557766" height="30.0" href="Aries.svg" transform="translate(471.7231075697211, 50.0) rotate(345, 15.776892430278883, 437.5)"/>
-<image x="0" y="0" width="30.0" height="30.0" href="Mars.svg" transform="translate(472.5, 90.0) rotate(355, 15.0, 397.5)"/>
-<image x="0" y="0" width="30.0" height="30.0" href="Sun.svg" transform="translate(472.5, 90.0) rotate(345, 15.0, 397.5)"/>
-<image x="0" y="0" width="28.499999999999996" height="28.5" href="Venus.svg" transform="translate(473.25, 90.75) rotate(335, 14.249999999999998, 396.75)"/>
+<image x="0" y="0" width="31.553784860557766" height="30.0" href="Aries.svg" transform="translate(471.7231075697211, 50.0) rotate(315, 15.776892430278883, 437.5)"/>
+<image x="0" y="0" width="30.0" height="30.0" href="Mars.svg" transform="translate(472.5, 90.0) rotate(325, 15.0, 397.5)"/>
+<image x="0" y="0" width="30.0" height="30.0" href="Sun.svg" transform="translate(472.5, 90.0) rotate(315, 15.0, 397.5)"/>
+<image x="0" y="0" width="28.499999999999996" height="28.5" href="Venus.svg" transform="translate(473.25, 90.75) rotate(305, 14.249999999999998, 396.75)"/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(300, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(294, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(288, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(280, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(275, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(270, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(264, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(258, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(250, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(245, 487.5, 487.5) translate(810.0, 487.5) "/>
+<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(387, 10.0, 352.5)"/>
+<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(381, 9.5, 352.0)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(374, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(367.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(362.5, 10.999999999999998, 353.5)"/>
+<image x="0" y="0" width="28.685258964143426" height="30.0" href="Taurus.svg" transform="translate(474.1573705179283, 50.0) rotate(285, 14.342629482071713, 437.5)"/>
+<image x="0" y="0" width="30.0" height="30.0" href="Mercury.svg" transform="translate(472.5, 90.0) rotate(295, 15.0, 397.5)"/>
+<image x="0" y="0" width="24.0" height="24.0" href="Moon.svg" transform="translate(475.5, 93.0) rotate(285, 12.0, 394.5)"/>
+<image x="0" y="0" width="33.0" height="33.0" href="Saturn.svg" transform="translate(471.0, 88.5) rotate(275, 16.5, 399.0)"/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(270, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(262, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(256, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(248, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(243, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(240, 487.5, 487.5) translate(810.0, 487.5) "/>
-<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(357, 10.0, 352.5)"/>
-<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(351, 9.5, 352.0)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(344, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(337.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(332.5, 10.999999999999998, 353.5)"/>
-<image x="0" y="0" width="28.685258964143426" height="30.0" href="Taurus.svg" transform="translate(474.1573705179283, 50.0) rotate(315, 14.342629482071713, 437.5)"/>
-<image x="0" y="0" width="30.0" height="30.0" href="Mercury.svg" transform="translate(472.5, 90.0) rotate(325, 15.0, 397.5)"/>
-<image x="0" y="0" width="24.0" height="24.0" href="Moon.svg" transform="translate(475.5, 93.0) rotate(315, 12.0, 394.5)"/>
-<image x="0" y="0" width="33.0" height="33.0" href="Saturn.svg" transform="translate(471.0, 88.5) rotate(305, 16.5, 399.0)"/>
+<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(356, 9.5, 352.0)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(349, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(342, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(335.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(331.5, 10.999999999999998, 353.5)"/>
+<image x="0" y="0" width="29.163346613545816" height="29.999999999999996" href="Gemini.svg" transform="translate(472.9183266932271, 50.0) rotate(255, 14.581673306772908, 437.5)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 90.0) rotate(265, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mars.svg" transform="translate(472.5, 90.0) rotate(255, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Sun.svg" transform="translate(472.5, 90.0) rotate(245, 14.999999999999998, 397.5)"/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(240, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(232, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(226, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(218, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(213, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(234, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(228, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(223, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(216, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(210, 487.5, 487.5) translate(810.0, 487.5) "/>
-<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(326, 9.5, 352.0)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(319, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(312, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(305.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(301.5, 10.999999999999998, 353.5)"/>
-<image x="0" y="0" width="29.163346613545816" height="29.999999999999996" href="Gemini.svg" transform="translate(472.9183266932271, 50.0) rotate(285, 14.581673306772908, 437.5)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 90.0) rotate(295, 14.999999999999998, 397.5)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mars.svg" transform="translate(472.5, 90.0) rotate(285, 14.999999999999998, 397.5)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Sun.svg" transform="translate(472.5, 90.0) rotate(275, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(327, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(321, 10.0, 352.5)"/>
+<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(315.5, 9.5, 352.0)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(309.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(303, 10.999999999999998, 353.5)"/>
+<image x="0" y="0" width="38.29787234042553" height="29.999999999999996" href="Cancer.svg" transform="translate(468.3510638297872, 50.0) rotate(225, 19.148936170212764, 437.5)"/>
+<image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 90.75) rotate(235, 14.249999999999998, 396.75)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 90.0) rotate(225, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="24.0" height="24.0" href="Moon.svg" transform="translate(475.5, 93.0) rotate(215, 12.0, 394.5)"/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(210, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(204, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(198, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(193, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(186, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(203, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(197, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(192, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(184, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(180, 487.5, 487.5) translate(810.0, 487.5) "/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(297, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(291, 10.0, 352.5)"/>
-<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(285.5, 9.5, 352.0)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(279.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(273, 10.999999999999998, 353.5)"/>
-<image x="0" y="0" width="38.29787234042553" height="29.999999999999996" href="Cancer.svg" transform="translate(468.3510638297872, 50.0) rotate(255, 19.148936170212764, 437.5)"/>
-<image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 90.75) rotate(265, 14.249999999999998, 396.75)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 90.0) rotate(255, 14.999999999999998, 397.5)"/>
-<image x="0" y="0" width="24.0" height="24.0" href="Moon.svg" transform="translate(475.5, 93.0) rotate(245, 12.0, 394.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(296.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(290, 9.5, 352.0)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(284.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(278, 10.0, 352.5)"/>
+<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(272, 10.999999999999998, 353.5)"/>
+<image x="0" y="0" width="22.5" height="30.0" href="Leo.svg" transform="translate(476.25, 50.0) rotate(195, 11.25, 437.5)"/>
+<image x="0" y="0" width="33.0" height="33.0" href="Saturn.svg" transform="translate(471.0, 88.5) rotate(205, 16.5, 399.0)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 90.0) rotate(195, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mars.svg" transform="translate(472.5, 90.0) rotate(185, 14.999999999999998, 397.5)"/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(180, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(173, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(167, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(174, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(169, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(162, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(154, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(156, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(150, 487.5, 487.5) translate(810.0, 487.5) "/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(266.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(260, 9.5, 352.0)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(254.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(248, 10.0, 352.5)"/>
-<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(242, 10.999999999999998, 353.5)"/>
-<image x="0" y="0" width="22.5" height="30.0" href="Leo.svg" transform="translate(476.25, 50.0) rotate(225, 11.25, 437.5)"/>
-<image x="0" y="0" width="33.0" height="33.0" href="Saturn.svg" transform="translate(471.0, 88.5) rotate(235, 16.5, 399.0)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 90.0) rotate(225, 14.999999999999998, 397.5)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mars.svg" transform="translate(472.5, 90.0) rotate(215, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(267, 10.0, 352.5)"/>
+<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(261.5, 9.5, 352.0)"/>
+<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(255.5, 10.999999999999998, 353.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(249, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(243, 10.0, 352.5)"/>
+<image x="0" y="0" width="24.741035856573703" height="29.999999999999996" href="Virgo.svg" transform="translate(475.12948207171314, 50.0) rotate(165, 12.370517928286851, 437.5)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Sun.svg" transform="translate(472.5, 90.0) rotate(175, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 90.75) rotate(165, 14.249999999999998, 396.75)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 90.0) rotate(155, 14.999999999999998, 397.5)"/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(150, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(144, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(139, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(132, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(126, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(143, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(133, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(129, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(122, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(120, 487.5, 487.5) translate(810.0, 487.5) "/>
-<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(237, 10.0, 352.5)"/>
-<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(231.5, 9.5, 352.0)"/>
-<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(225.5, 10.999999999999998, 353.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(219, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(213, 10.0, 352.5)"/>
-<image x="0" y="0" width="24.741035856573703" height="29.999999999999996" href="Virgo.svg" transform="translate(475.12948207171314, 50.0) rotate(195, 12.370517928286851, 437.5)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Sun.svg" transform="translate(472.5, 90.0) rotate(205, 14.999999999999998, 397.5)"/>
-<image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 90.75) rotate(195, 14.249999999999998, 396.75)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 90.0) rotate(185, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(236.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(228, 9.5, 352.0)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(221, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(215.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(211, 10.999999999999998, 353.5)"/>
+<image x="0" y="0" width="27.250996015936252" height="29.999999999999996" href="Libra.svg" transform="translate(473.87450199203187, 50.0) rotate(135, 13.625498007968126, 437.5)"/>
+<image x="0" y="0" width="24.0" height="24.0" href="Moon.svg" transform="translate(475.5, 93.0) rotate(145, 12.0, 394.5)"/>
+<image x="0" y="0" width="33.0" height="33.0" href="Saturn.svg" transform="translate(471.0, 88.5) rotate(135, 16.5, 399.0)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 90.0) rotate(125, 14.999999999999998, 397.5)"/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(120, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(113, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(103, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(114, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(106, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(99, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(92, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(90, 487.5, 487.5) translate(810.0, 487.5) "/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(206.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(198, 9.5, 352.0)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(191, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(185.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(181, 10.999999999999998, 353.5)"/>
-<image x="0" y="0" width="27.250996015936252" height="29.999999999999996" href="Libra.svg" transform="translate(473.87450199203187, 50.0) rotate(165, 13.625498007968126, 437.5)"/>
-<image x="0" y="0" width="24.0" height="24.0" href="Moon.svg" transform="translate(475.5, 93.0) rotate(175, 12.0, 394.5)"/>
-<image x="0" y="0" width="33.0" height="33.0" href="Saturn.svg" transform="translate(471.0, 88.5) rotate(165, 16.5, 399.0)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 90.0) rotate(155, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(207, 10.999999999999998, 353.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(200, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(192.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(185.5, 9.5, 352.0)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(181, 10.0, 352.5)"/>
+<image x="0" y="0" width="51.063829787" height="29.999999999999996" href="Scorpio.svg" transform="translate(461.9680851065, 50.0) rotate(105, 25.5319148935, 437.5)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mars.svg" transform="translate(472.5, 90.0) rotate(115, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Sun.svg" transform="translate(472.5, 90.0) rotate(105, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 90.75) rotate(95, 14.249999999999998, 396.75)"/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(90, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(84, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(76, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(69, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(62, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(83, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(79, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(71, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(66, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(60, 487.5, 487.5) translate(810.0, 487.5) "/>
-<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(177, 10.999999999999998, 353.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(170, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(162.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(155.5, 9.5, 352.0)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(151, 10.0, 352.5)"/>
-<image x="0" y="0" width="51.063829787" height="29.999999999999996" href="Scorpio.svg" transform="translate(461.9680851065, 50.0) rotate(135, 25.5319148935, 437.5)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mars.svg" transform="translate(472.5, 90.0) rotate(145, 14.999999999999998, 397.5)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Sun.svg" transform="translate(472.5, 90.0) rotate(135, 14.999999999999998, 397.5)"/>
-<image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 90.75) rotate(125, 14.249999999999998, 396.75)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(176.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(171.5, 9.5, 352.0)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(165, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(158.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(153, 10.999999999999998, 353.5)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Sagittarius.svg" transform="translate(472.5, 50.0) rotate(75, 14.999999999999998, 437.5)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 90.0) rotate(85, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="24.0" height="24.0" href="Moon.svg" transform="translate(475.5, 93.0) rotate(75, 12.0, 394.5)"/>
+<image x="0" y="0" width="33.0" height="33.0" href="Saturn.svg" transform="translate(471.0, 88.5) rotate(65, 16.5, 399.0)"/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(60, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(53, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(49, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(41, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(36, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(48, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(43, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(39, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(34, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(30, 487.5, 487.5) translate(810.0, 487.5) "/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(146.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(141.5, 9.5, 352.0)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(135, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(128.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(123, 10.999999999999998, 353.5)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Sagittarius.svg" transform="translate(472.5, 50.0) rotate(105, 14.999999999999998, 437.5)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 90.0) rotate(115, 14.999999999999998, 397.5)"/>
-<image x="0" y="0" width="24.0" height="24.0" href="Moon.svg" transform="translate(475.5, 93.0) rotate(105, 12.0, 394.5)"/>
-<image x="0" y="0" width="33.0" height="33.0" href="Saturn.svg" transform="translate(471.0, 88.5) rotate(95, 16.5, 399.0)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(144, 10.0, 352.5)"/>
+<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(135.5, 9.5, 352.0)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(131, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(126.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(122, 10.999999999999998, 353.5)"/>
+<image x="0" y="0" width="31.43426294820717" height="29.999999999999996" href="Capricorn.svg" transform="translate(471.7828685258964, 50.0) rotate(45, 15.717131474103585, 437.5)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 90.0) rotate(55, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mars.svg" transform="translate(472.5, 90.0) rotate(45, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Sun.svg" transform="translate(472.5, 90.0) rotate(35, 14.999999999999998, 397.5)"/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(30, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(18, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(13, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(9, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(23, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(16, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(8, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(4, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(0, 487.5, 487.5) translate(810.0, 487.5) "/>
-<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(114, 10.0, 352.5)"/>
-<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(105.5, 9.5, 352.0)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(101, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(96.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(92, 10.999999999999998, 353.5)"/>
-<image x="0" y="0" width="31.43426294820717" height="29.999999999999996" href="Capricorn.svg" transform="translate(471.7828685258964, 50.0) rotate(75, 15.717131474103585, 437.5)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 90.0) rotate(85, 14.999999999999998, 397.5)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mars.svg" transform="translate(472.5, 90.0) rotate(75, 14.999999999999998, 397.5)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Sun.svg" transform="translate(472.5, 90.0) rotate(65, 14.999999999999998, 397.5)"/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(0, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(-7, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(-14, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(-22, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(-26, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(-30, 487.5, 487.5) translate(810.0, 487.5) "/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(87, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(79.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(72, 9.5, 352.0)"/>
-<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(66, 10.999999999999998, 353.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(62, 10.0, 352.5)"/>
-<image x="0" y="0" width="44.581673306772906" height="29.999999999999996" href="Aquarius.svg" transform="translate(465.20916334661354, 50.0) rotate(45, 22.290836653386453, 437.5)"/>
-<image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 90.75) rotate(55, 14.249999999999998, 396.75)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 90.0) rotate(45, 14.999999999999998, 397.5)"/>
-<image x="0" y="0" width="24.0" height="24.0" href="Moon.svg" transform="translate(475.5, 93.0) rotate(35, 12.0, 394.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(117, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(109.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(102, 9.5, 352.0)"/>
+<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(96, 10.999999999999998, 353.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(92, 10.0, 352.5)"/>
+<image x="0" y="0" width="44.581673306772906" height="29.999999999999996" href="Aquarius.svg" transform="translate(465.20916334661354, 50.0) rotate(15, 22.290836653386453, 437.5)"/>
+<image x="0" y="0" width="28.499999999999996" height="28.499999999999996" href="Venus.svg" transform="translate(473.25, 90.75) rotate(25, 14.249999999999998, 396.75)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mercury.svg" transform="translate(472.5, 90.0) rotate(15, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="24.0" height="24.0" href="Moon.svg" transform="translate(475.5, 93.0) rotate(5, 12.0, 394.5)"/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(360, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(353, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(347, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(340, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(335, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(330, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(323, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(317, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(310, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(305, 487.5, 487.5) translate(810.0, 487.5) "/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(86.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(80, 9.5, 352.0)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(73.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(67.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(62.5, 10.999999999999998, 353.5)"/>
+<image x="0" y="0" width="24.143426294820717" height="30.0" href="Pisces.svg" transform="translate(475.4282868525896, 50.0) rotate(-15, 12.071713147410359, 437.5)"/>
+<image x="0" y="0" width="33.0" height="33.0" href="Saturn.svg" transform="translate(471.0, 88.5) rotate(-5, 16.5, 399.0)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 90.0) rotate(-15, 14.999999999999998, 397.5)"/>
+<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mars.svg" transform="translate(472.5, 90.0) rotate(-25, 14.999999999999998, 397.5)"/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(330, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(318, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(314, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(311, 487.5, 487.5) translate(810.0, 487.5) "/>
+<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(302, 487.5, 487.5) translate(810.0, 487.5) "/>
 <rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(300, 487.5, 487.5) translate(810.0, 487.5) "/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(56.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(50, 9.5, 352.0)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(43.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(37.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(32.5, 10.999999999999998, 353.5)"/>
-<image x="0" y="0" width="24.143426294820717" height="30.0" href="Pisces.svg" transform="translate(475.4282868525896, 50.0) rotate(15, 12.071713147410359, 437.5)"/>
-<image x="0" y="0" width="33.0" height="33.0" href="Saturn.svg" transform="translate(471.0, 88.5) rotate(25, 16.5, 399.0)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Jupiter.svg" transform="translate(472.5, 90.0) rotate(15, 14.999999999999998, 397.5)"/>
-<image x="0" y="0" width="29.999999999999996" height="29.999999999999996" href="Mars.svg" transform="translate(472.5, 90.0) rotate(5, 14.999999999999998, 397.5)"/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(300, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(288, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(284, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(281, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(272, 487.5, 487.5) translate(810.0, 487.5) "/>
-<rect x="0" y="0" width="40.0" height="2" fill="#CC6D51" transform="rotate(270, 487.5, 487.5) translate(810.0, 487.5) "/>
-<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(24, 9.5, 352.0)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(16, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(12.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(6.5, 10.0, 352.5)"/>
-<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(1, 10.999999999999998, 353.5)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Uranus.svg" transform="translate(477.5, 345.0)
-                            rotate(120, 10.0, 142.5)
-                            rotate(240)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 365.0)
-                            rotate(115, 10.0, 122.5)
-                            rotate(245)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Sun.svg" transform="translate(477.5, 345.0)
-                            rotate(110, 10.0, 142.5)
-                            rotate(250)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Neptune.svg" transform="translate(477.5, 345.0)
-                        rotate(100, 10.0, 142.5)
-                        rotate(265)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="sn.svg" transform="translate(477.5, 345.0)
-                            rotate(67, 10.0, 142.5)
-                            rotate(293)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Venus.svg" transform="translate(477.5, 345.0)
-                        rotate(70, 10.0, 142.5)
-                        rotate(295)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="asc.svg" transform="translate(477.5, 345.0)
-                            rotate(178, 10.0, 142.5)
-                            rotate(182)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Saturn.svg" transform="translate(477.5, 365.0)
-                            rotate(161, 10.0, 122.5)
-                            rotate(199)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="Pluto.svg" transform="translate(477.5, 345.0)
-                        rotate(160, 10.0, 142.5)
-                        rotate(205)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="mc.svg" transform="translate(477.5, 345.0)
-                            rotate(268, 10.0, 142.5)
-                            rotate(92)"/>
-<image x="0" y="0" width="20.0" height="20.0" href="nn.svg" transform="translate(477.5, 345.0)
-                        rotate(247, 10.0, 142.5)
-                        rotate(113)"/>
+<image x="0" y="0" width="19.0" height="19.0" href="Venus.svg" transform="translate(478.0, 135.5) rotate(54, 9.5, 352.0)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Jupiter.svg" transform="translate(477.5, 135.0) rotate(46, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mercury.svg" transform="translate(477.5, 135.0) rotate(42.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="20.0" height="20.0" href="Mars.svg" transform="translate(477.5, 135.0) rotate(36.5, 10.0, 352.5)"/>
+<image x="0" y="0" width="21.999999999999996" height="22.0" href="Saturn.svg" transform="translate(476.5, 134.0) rotate(31, 10.999999999999998, 353.5)"/>
+<image x="629.4196914589912" y="464.2087492309821" width="20.0" height="20.0" href="Mercury.svg"/>
+<image x="627.6831823343617" y="451.018652905793" width="20.0" height="20.0" href="Sun.svg"/>
+<image x="615.7119375230891" y="413.0507150845432" width="20.0" height="20.0" href="Neptune.svg"/>
+<image x="524.6250916421794" y="332.4638812649891" width="20.0" height="20.0" href="Moon.svg"/>
+<image x="569.2767910306873" y="355.7080847177878" width="20.0" height="20.0" href="sn.svg"/>
+<image x="564.9704065435345" y="352.57931324592874" width="20.0" height="20.0" href="Venus.svg"/>
+<image x="537.0864970946143" y="617.8769901514971" width="20.0" height="20.0" href="Mars.svg"/>
+<image x="610.8795053387578" y="551.4334670875664" width="20.0" height="20.0" href="Jupiter.svg"/>
+<image x="558.3126877955638" y="606.827334663855" width="20.0" height="20.0" href="asc.svg"/>
+<image x="592.5932109839728" y="577.5490019210523" width="20.0" height="20.0" href="Saturn.svg"/>
+<image x="602.4206867540713" y="564.9704065435345" width="20.0" height="20.0" href="Pluto.svg"/>
+<image x="348.17266533614503" y="558.3126877955638" width="20.0" height="20.0" href="mc.svg"/>
+<image x="385.7232089693126" y="599.2919152822121" width="20.0" height="20.0" href="nn.svg"/>
 
 </svg>
