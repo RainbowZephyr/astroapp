@@ -73,31 +73,13 @@ def main
     center = dim/2.0
     outer_radius = 442.5
     difference = 40.0
-    shift = 30
+    shift = 240
     zodiac_height = 30.0
     term_height = 20.0
     dash_markers_width = 4
 
     svg.build do
         rect x: 0, y: 0, width: dim, height: dim, fill: '#151414'
-        angle = 270-degree("gem", 6)-shift
-        angle = -72+360
-        xc,yc = coordinates(angle, outer_radius)
-        puts "angle #{angle}"
-        if angle > 0 && angle <= 90
-            circle cx: center+xc, cy: center+yc, r: 5, stroke: 'red', fill: 'none', stroke_width: '2px'
-
-
-        elsif angle > 90 && angle <= 180
-            circle cx: center-xc, cy: center+yc, r: 5, stroke: 'red', fill: 'none', stroke_width: '2px'
-        elsif angle > 180 && angle <= 270
-
-            circle cx: center-xc, cy: center-yc, r: 5, stroke: 'red', fill: 'none', stroke_width: '2px'
-        elsif angle > 270 && angle <= 360
-
-            circle cx: center+xc, cy: center-yc, r: 5, stroke: 'red', fill: 'none', stroke_width: '2px'
-
-        end
 
 
         #Outer circles
@@ -641,6 +623,7 @@ def main
         for sign, planets in $natal
             planets.sort! {|h1, h2| h1.values <=> h2.values}
             puts "SIGN #{sign} PLANETS #{planets} w #{w}"
+            lift = false
 
             for p in 0...planets.length
 
@@ -650,59 +633,41 @@ def main
                     angle = angle + 360
                 end
 
+                if angle % 90 == 0
+                    angle += 1
+
+                end
+
                 xc,yc = coordinates(angle, outer_radius-difference*7.25)
                 txc,tyc = coordinates(angle, outer_radius-difference*7.7)
                 puts "P #{planets[p]} angle #{angle} radius #{outer_radius-difference*7} coord #{[xc,yc]}"
 
-                overlap = false
 
                 if p < planets.length-1 && planets.length > 1 && planets[p+1].values[0] - planets[p].values[0] < 6
-                    overlap = true
-
+                    if lift || planets.length == 2
+                        xc,yc = coordinates(angle, outer_radius-difference*8.3)
+                        txc,tyc = coordinates(angle, outer_radius-difference*8.75)
+                    end
+                    lift = !lift
                 end
 
                 if angle > 0 && angle <= 90
 
-                    if overlap
-                        xc = xc - w
-                        yc = yc - term_height
-                        txc = txc - term_height * 0.6
-                        tyc = tyc - term_height * 0.6
-                    end
 
                     text "#{planets[p].values[0]}°", x: center+txc-term_height*0.6, y: center+tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
 
                     image x: center+xc-w/2, y:  center+yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
                 elsif angle > 90 && angle <= 180
-                    if overlap
-                        xc = xc + w
-                        yc = yc - term_height
-                        txc = txc + term_height * 0.6
-                        tyc = tyc - term_height * 0.6
-                    end
 
                     text "#{planets[p].values[0]}°", x: center-txc-term_height*0.6, y: center+tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
 
                     image x: center-xc-w/2, y:  center+yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
                 elsif angle > 180 && angle <= 270
-                    if overlap
-                        xc = xc + w
-                        yc = yc + term_height
-                        txc = txc + term_height * 0.6
-                        tyc = tyc + term_height * 0.6
-                    end
 
-                    text "#{planets[p].values[0]}°", x: center-txc-term_height*0.6, y: center-tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
+                    text "#{planets[p].values[0]}°", x: center-txc+term_height*0.6, y: center-tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
 
-                    image x: center-xc+w/2, y:  center-yc+term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
+                    image x: center-xc-w/2, y:  center-yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
                 elsif angle > 270 && angle <= 360
-                    if overlap
-                        xc = xc - w
-                        yc = yc - term_height
-                        txc = txc - term_height * 0.6
-                        tyc = tyc - term_height * 0.6
-                    end
-
                     text "#{planets[p].values[0]}°", x: center+txc, y: center-tyc+term_height*0.6, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
 
                     image x: center+xc-w/2, y:  center-yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
