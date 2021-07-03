@@ -7,6 +7,30 @@
 
 
 <rect x="0" y="0" width="975" height="975" fill="#151414"/>
+<text x="20" y="40" font-weight="bold" font-family="hasklig" font-size="20.0" fill="#cfcfcf">
+Britney Spears
+</text>
+<text x="825" y="40" font-weight="bold" font-family="hasklig" font-size="20.0" fill="#cfcfcf">
+Natal (Inner)
+</text>
+<text x="801" y="60" font-family="hasklig" font-size="18.0" fill="#cfcfcf">
+2/12/1981 1:30am
+</text>
+<text x="801" y="80" font-family="hasklig" font-size="18.0" fill="#cfcfcf">
+McComb MS, USA
+</text>
+<text x="755" y="935" font-weight="bold" font-family="hasklig" font-size="20.0" fill="#cfcfcf">
+Progressed (Middle)
+</text>
+<text x="800" y="915" font-family="hasklig" font-size="18.0" fill="#cfcfcf">
+30/6/2021 5:00pm
+</text>
+<text x="20" y="935" font-weight="bold" font-family="hasklig" font-size="20.0" fill="#cfcfcf">
+Transits (Outer)
+</text>
+<text x="20" y="915" font-family="hasklig" font-size="18.0" fill="#cfcfcf">
+30/6/2021 5:00pm
+</text>
 <circle cx="487.5" cy="487.5" r="442.5" stroke="#CC6D51" fill="none" stroke-width="2px"/>
 <circle cx="487.5" cy="487.5" r="402.5" stroke="#CC6D51" fill="none" stroke-width="2px"/>
 <circle cx="487.5" cy="487.5" r="362.5" stroke="#CC6D51" fill="none" stroke-width="2px"/>

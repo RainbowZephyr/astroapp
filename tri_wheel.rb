@@ -81,6 +81,19 @@ def main
     svg.build do
         rect x: 0, y: 0, width: dim, height: dim, fill: '#151414'
 
+        text "Britney Spears", x: 20, y: 40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
+
+
+        text "Natal (Inner)", x: dim - 150, y: 40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
+        text "2/12/1981 1:30am", x: dim-174, y: 60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+        text "McComb MS, USA", x: dim-174, y: 80, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+
+
+        text "Progressed (Middle)", x: dim-220, y: dim-40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
+        text "30/6/2021 5:00pm", x: dim-175, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+
+        text "Transits (Outer)", x: 20, y: dim-40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
+        text "30/6/2021 5:00pm", x: 20, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
 
         #Outer circles
         circle cx: center, cy: center, r: outer_radius, stroke: '#CC6D51', fill: 'none', stroke_width: '2px'
