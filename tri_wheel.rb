@@ -671,21 +671,21 @@ def main
                     if angle > 0 && angle <= 90
 
 
-                        text "#{planets[p].values[0]}°", x: center+txc-term_height*0.6, y: center+tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
+                        text "#{planets[p].values[0]}°", x: center+txc-term_height*0.3, y: center+tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
 
                         image x: center+xc-w/2, y:  center+yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
                     elsif angle > 90 && angle <= 180
 
-                        text "#{planets[p].values[0]}°", x: center-txc-term_height*0.6, y: center+tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
+                        text "#{planets[p].values[0]}°", x: center-txc-term_height*0.3, y: center+tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
 
                         image x: center-xc-w/2, y:  center+yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
                     elsif angle > 180 && angle <= 270
 
-                        text "#{planets[p].values[0]}°", x: center-txc+term_height*0.6, y: center-tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
+                        text "#{planets[p].values[0]}°", x: center-txc-term_height*0.3, y: center-tyc, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
 
                         image x: center-xc-w/2, y:  center-yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
                     elsif angle > 270 && angle <= 360
-                        text "#{planets[p].values[0]}°", x: center+txc, y: center-tyc+term_height*0.6, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
+                        text "#{planets[p].values[0]}°", x: center+txc, y: center-tyc+term_height*0.3, font_weight: "bold", font_family: 'hasklig', font_size: term_height*0.6, fill: '#cfcfcf'
 
                         image x: center+xc-w/2, y:  center-yc-term_height/2, width: w, height: term_height, href:"#{planets[p].keys[0]}.svg"
                     end
