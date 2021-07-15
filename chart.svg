@@ -25,11 +25,17 @@ Progressed (Middle)
 <text x="800" y="915" font-family="hasklig" font-size="18.0" fill="#cfcfcf">
 30/6/2021 5:00pm
 </text>
+<text x="801" y="895" font-family="hasklig" font-size="18.0" fill="#cfcfcf">
+McComb MS, USA
+</text>
 <text x="20" y="935" font-weight="bold" font-family="hasklig" font-size="20.0" fill="#cfcfcf">
 Transits (Outer)
 </text>
 <text x="20" y="915" font-family="hasklig" font-size="18.0" fill="#cfcfcf">
 30/6/2021 5:00pm
+</text>
+<text x="20" y="895" font-family="hasklig" font-size="18.0" fill="#cfcfcf">
+Los Angeles CA, USA
 </text>
 <circle cx="487.5" cy="487.5" r="442.5" stroke="#CC6D51" fill="none" stroke-width="2px"/>
 <circle cx="487.5" cy="487.5" r="402.5" stroke="#CC6D51" fill="none" stroke-width="2px"/>
@@ -557,38 +563,18 @@ Transits (Outer)
 22°
 </text>
 <image x="509.8577459732152" y="247.2626740175849" width="20.0" height="20.0" href="nn.svg"/>
-<text x="594.0755758268269" y="235.71619337574896" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
-8°
+<text x="612.2165912614926" y="243.793093827887" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+4°
 </text>
-<image x="590.8184945083134" y="197.0268839935468" width="20.0" height="20.0" href="Sun.svg"/>
-<text x="626.2620306743468" y="728.7696833565033" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
-2°
+<image x="610.107271903696" y="205.614800994502" width="20.0" height="20.0" href="Mercury.svg"/>
+<text x="527.0947472231386" y="217.76873444302322" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+22°
 </text>
-<image x="637.8005774305445" y="734.0345490873189" width="20.0" height="20.0" href="Jupiter.svg"/>
-<text x="642.7249042772087" y="717.6653348996725" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
-6°
+<image x="519.5998630404198" y="177.94390920567497" width="20.0" height="20.0" href="Sun.svg"/>
+<text x="281.56035593265074" y="304.6269250441796" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+20°
 </text>
-<image x="655.3050388184731" y="722.2276407984216" width="20.0" height="20.0" href="mc.svg"/>
-<text x="663.9578956533154" y="640.1101948295856" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
-21°
-</text>
-<image x="679.946522959541" y="641.4379618684827" width="20.0" height="20.0" href="Moon.svg"/>
-<text x="702.7118026084548" y="658.7163740867577" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
-23°
-</text>
-<image x="719.0872417893061" y="659.5490445034945" width="20.0" height="20.0" href="Neptune.svg"/>
-<text x="705.4396440673493" y="316.62692504417953" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
-10°
-</text>
-<image x="709.2284440434908" y="283.0567480698218" width="20.0" height="20.0" href="nn.svg"/>
-<text x="677.8676575090951" y="288.0752971516813" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
-18°
-</text>
-<image x="679.9120084235544" y="252.69869029308813" width="20.0" height="20.0" href="Mercury.svg"/>
-<text x="658.7163740867577" y="272.2881973915451" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
-23°
-</text>
-<image x="659.5490445034945" y="235.91275821069385" width="20.0" height="20.0" href="asc.svg"/>
+<image x="245.77155595650913" y="283.0567480698219" width="20.0" height="20.0" href="Moon.svg"/>
 <text x="484.61042044888234" y="203.38989736232372" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
 3°
 </text>
@@ -597,6 +583,18 @@ Transits (Outer)
 11°
 </text>
 <image x="419.780278898595" y="180.5577770070817" width="20.0" height="20.0" href="Mars.svg"/>
+<text x="626.2620306743468" y="728.7696833565033" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+2°
+</text>
+<image x="637.8005774305445" y="734.0345490873189" width="20.0" height="20.0" href="Jupiter_rx.svg"/>
+<text x="642.7249042772087" y="717.6653348996725" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+6°
+</text>
+<image x="655.3050388184731" y="722.2276407984216" width="20.0" height="20.0" href="mc.svg"/>
+<text x="702.7118026084548" y="658.7163740867577" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+23°
+</text>
+<image x="719.0872417893061" y="659.5490445034945" width="20.0" height="20.0" href="Neptune.svg"/>
 <text x="534.6508760376526" y="765.7829924087678" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
 12°
 </text>
@@ -609,9 +607,17 @@ Transits (Outer)
 25°
 </text>
 <image x="451.1353878188334" y="778.848896172753" width="20.0" height="20.0" href="Pluto.svg"/>
+<text x="705.4396440673493" y="316.62692504417953" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+10°
+</text>
+<image x="709.2284440434908" y="283.0567480698218" width="20.0" height="20.0" href="nn.svg"/>
 <text x="257.5603559326508" y="670.3730749558205" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
 10°
 </text>
 <image x="245.7715559565092" y="671.9432519301781" width="20.0" height="20.0" href="sn.svg"/>
+<text x="218.5026671006833" y="442.99439469605437" font-weight="bold" font-family="hasklig" font-size="12.0" fill="#cfcfcf">
+21°
+</text>
+<image x="178.72427696997084" y="430.17857432533003" width="20.0" height="20.0" href="asc.svg"/>
 
 </svg>

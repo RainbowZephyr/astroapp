@@ -36,25 +36,43 @@ def read_placements(file)
     $df.set_index "planets"
 
     for p in $planets
+        planet = p
+        if $df["rx_1"][p] == 1
+            planet += "_rx"
+
+        end
+
+
+
         if $natal.key?  $df["natal_sign"][p]
-            $natal[$df["natal_sign"][p]] << {p => $df["natal_degree"][p]}
+            $natal[$df["natal_sign"][p]] << {planet => $df["natal_degree"][p]}
         else
-            $natal[$df["natal_sign"][p]] = [{p => $df["natal_degree"][p]}]
+            $natal[$df["natal_sign"][p]] = [{planet => $df["natal_degree"][p]}]
+        end
+
+        planet = p
+        if $df["rx_2"][p] == 1
+            planet += "_rx"
         end
 
         if $df.vectors.to_a.include? "progressed_sign"
             if $progressed.key?  $df["progressed_sign"][p]
-                $progressed[$df["progressed_sign"][p]] << {p => $df["progressed_degree"][p]}
+                $progressed[$df["progressed_sign"][p]] << {planet => $df["progressed_degree"][p]}
             else
-                $progressed[$df["progressed_sign"][p]] = [{p => $df["progressed_degree"][p]}]
+                $progressed[$df["progressed_sign"][p]] = [{planet => $df["progressed_degree"][p]}]
             end
+        end
+
+        planet = p
+        if $df["rx_3"][p] == 1
+            planet += "_rx"
         end
 
         if $df.vectors.to_a.include? "transit_sign"
             if $transit.key?  $df["transit_sign"][p]
-                $transit[$df["transit_sign"][p]] << {p => $df["transit_degree"][p]}
+                $transit[$df["transit_sign"][p]] << {planet => $df["transit_degree"][p]}
             else
-                $transit[$df["transit_sign"][p]] = [{p => $df["transit_degree"][p]}]
+                $transit[$df["transit_sign"][p]] = [{planet => $df["transit_degree"][p]}]
             end
         end
     end
@@ -91,9 +109,12 @@ def main
 
         text "Progressed (Middle)", x: dim-220, y: dim-40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
         text "30/6/2021 5:00pm", x: dim-175, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+        text "McComb MS, USA", x: dim-174, y: dim-80, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+
 
         text "Transits (Outer)", x: 20, y: dim-40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
         text "30/6/2021 5:00pm", x: 20, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+        text "Los Angeles CA, USA", x: 20, y: dim-80, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
 
         #Outer circles
         circle cx: center, cy: center, r: outer_radius, stroke: '#CC6D51', fill: 'none', stroke_width: '2px'
