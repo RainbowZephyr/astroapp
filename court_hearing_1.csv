@@ -1,0 +1,15 @@
+planets,natal_sign,natal_degree,rx,progressed_sign,progressed_degree,rx,transit_sign,transit_degree,rx
+Sun,sag,10,0,cap,20,0,can,22,0
+Moon,aqu,12,0,leo,4,0,pis,27,0
+Mercury,sag,5,0,aqu,7,0,gem,18,0
+Venus,cap,25,0,aqu,6,1,leo,4,0
+Mars,vir,23,0,lib,10,0,leo,11,0
+Jupiter,sco,1,0,sco,7,0,pis,2,1
+Saturn,lib,19,0,lib,21,0,aqu,12,1
+Uranus,sag,0,0,sag,3,0,tau,14,0
+Neptune,sag,25,0,sag,25,0,pis,23,1
+Pluto,lib,25,0,lib,26,0,cap,25,1
+nn,can,23,0,can,22,0,gem,9,0
+sn,cap,23,0,cap,22,0,sag,9,0
+asc,lib,2,0,sco,6,0,lib,21,0
+mc,can,2,0,leo,9,0,can,24,0

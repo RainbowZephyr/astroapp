@@ -83,7 +83,7 @@ def read_placements(file)
 
 end
 
-def main
+def main(file)
     dim = 975
     svg = Victor::SVG.new width: dim, height: dim
     scale = 1.5
@@ -113,7 +113,7 @@ def main
 
 
         text "Transits (Outer)", x: 20, y: dim-40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
-        text "30/6/2021 5:00pm", x: 20, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+        text "30/6/2021 2:00pm", x: 20, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
         text "Los Angeles CA, USA", x: 20, y: dim-80, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
 
         #Outer circles
@@ -651,7 +651,7 @@ def main
         term_height = term_height / 1.1
         #=====================Pisces=======================
 
-        read_placements "placements.csv"
+        read_placements file
         w = 50 / (50/term_height)
         factors = [7.25, 5.25,3.5]
         factor_counter=0
@@ -662,6 +662,15 @@ def main
                 planets.sort! {|h1, h2| h1.values <=> h2.values}
 
                 lift = false
+                # consequetive_difference_counter = 0
+                #
+                # for p in 0...planets.length-1
+                #     if planets[p+1].values[0] - planets[p].values[0] < 6
+                #         consequetive_difference_counter += 1
+                #     end
+                # end
+
+
 
                 for p in 0...planets.length
 
@@ -681,12 +690,14 @@ def main
                     puts "P #{planets[p]} angle #{angle} radius #{outer_radius-difference*7} coord #{[xc,yc]}"
 
 
-                    if p < planets.length-1 && planets.length > 1 && planets[p+1].values[0] - planets[p].values[0] < 6
-                        if lift || planets.length == 2
+
+                    if (p < planets.length-1 && planets.length > 1 && planets[p+1].values[0] - planets[p].values[0] < 5)
+                        if lift || planets.length - p == 2
                             xc,yc = coordinates(angle, outer_radius-difference*(factors[factor_counter]+1.05))
                             txc,tyc = coordinates(angle, outer_radius-difference*(factors[factor_counter]+1.5))
                         end
                         lift = !lift
+                        puts "@@@@@@@@@@@@@@@@@@@@@@@@ #{planets} P #{p}"
                     end
 
                     if angle > 0 && angle <= 90
@@ -717,9 +728,11 @@ def main
             if factor_counter < factors.length-1
                 factor_counter += 1
             end
+            puts "========================\n"
         end
-        svg.save 'chart'
+        svg.save "#{file[0..-5]}"
 
     end
 end
-main
+
+main ARGV[0]
