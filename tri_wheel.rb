@@ -21,7 +21,6 @@ end
 
 def bounds(sign, radius, x, y, dimension, shift)
     return shift + 360 - sign * 30
-
 end
 
 def coordinates(angle, radius)
@@ -108,12 +107,12 @@ def main(file)
 
 
         text "Progressed (Middle)", x: dim-220, y: dim-40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
-        text "14/7/2021 5:00pm", x: dim-175, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+        text "23/6/2021 5:00pm", x: dim-175, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
         text "McComb MS, USA", x: dim-174, y: dim-80, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
 
 
         text "Transits (Outer)", x: 20, y: dim-40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
-        text "14/7/2021 2:00pm", x: 20, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+        text "23/6/2021 2:00pm", x: 20, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
         text "Los Angeles CA, USA", x: 20, y: dim-80, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
 
         #Outer circles
@@ -148,6 +147,33 @@ def main(file)
 
         end
 
+        # text_height = 20
+        # for i in 1..12
+        #     angle = 188 - (i-1) * 30
+        #
+        #     if angle < 0
+        #         angle = 360 + angle
+        #     end
+        #     xc,yc = coordinates(angle, 30)
+        #
+        #     if angle > 0 && angle <= 90
+        #         xc = center + xc - 2
+        #         yc = center + yc + 2
+        #     elsif angle > 90 && angle <= 180
+        #         xc = center - xc
+        #         yc = center + yc
+        #     elsif angle > 180 && angle <= 270
+        #         xc = center - xc
+        #         yc = center - yc
+        #     elsif angle > 270 && angle <= 360
+        #         xc = center + xc
+        #         yc = center - yc
+        #     end
+        #     puts "Angle #{angle} coord (#{xc}, #{yc})"
+        #
+        #     text "#{i}", x: xc, y: yc, font_weight: "bold", font_family: 'hasklig', font_size: text_height*0.6, fill: '#cfcfcf'
+        # end
+
         #Decans
         for i in (0...360).step(10) do
             rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{i}, #{center}, #{center})     translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*2}, #{center}) "
@@ -170,26 +196,26 @@ def main(file)
         zodiac_height = zodiac_height / 0.95
 
         for i in [0,6,12,20,25,30] do
-            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{shift+270-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{270-i+(360-shift)}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
         end
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+360-3}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{360-3+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 0.95
         w = 75 / (75/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+360-9}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{360-9+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 0.95
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+360-16}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{360-16+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+360-22.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{360-22.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 1.1
         w = 50 / (50/(term_height))
-        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+360-27.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{360-27.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 1.1
 
         #=====================Aries========================
@@ -213,26 +239,26 @@ def main(file)
 
 
         for i in [0,8,14,22,27,30] do
-            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{shift+240-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{240-i+(360-shift)}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
         end
 
         term_height = term_height * 0.95
         w = 75 / (75/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+330-4}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{330-4+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 0.95
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+330-11}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{330-11+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+330-18}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{330-18+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+330-24.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{330-24.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 1.1
         w = 50 / (50/(term_height))
-        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+330-28.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{330-28.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 1.1
 
         #=====================Taurus=======================
@@ -254,26 +280,26 @@ def main(file)
         image x: 0, y: 0, width: w, height: zodiac_height, href:"Sun.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference+(difference-zodiac_height)/2.0}) rotate(#{300-25-shift}, #{w/2.0}, #{outer_radius-difference-(difference-zodiac_height)/2.0})"
 
         for i in [0,6,12,17,24,30] do
-            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{shift+210-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{210-i+(360-shift)}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
         end
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+300-3}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{300-3+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+300-9}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{300-9+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 0.95
         w = 75 / (75/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+300-14.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{300-14.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 0.95
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+300-20.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{300-20.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 1.1
         w = 50 / (50/(term_height))
-        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+300-27}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{300-27+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 1.1
 
         #=====================Gemini=======================
@@ -298,26 +324,26 @@ def main(file)
 
 
         for i in [0,7,13,18,26,30] do
-            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{shift+180-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{180-i+(360-shift)}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
         end
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+270-3.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{270-3.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 0.95
         w = 75 / (75/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+270-10}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{270-10+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 0.95
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+270-15.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{270-15.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+270-22}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{270-22+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 1.1
         w = 50 / (50/(term_height))
-        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+270-28}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{270-28+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 1.1
 
         #=====================Cancer=======================
@@ -339,27 +365,27 @@ def main(file)
 
 
         for i in [0,6,11,18,24,30] do
-            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{shift+150-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{150-i+(360-shift)}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
         end
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+240-3}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{240-3+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 0.95
         w = 75 / (75/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+240-8.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{240-8.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 0.95
 
         term_height = term_height * 1.1
         w = 50 / (50/(term_height))
-        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+240-14.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{240-14.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 1.1
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+240-21}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{240-21+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+240-27}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{240-27+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         #=====================Leo=======================
 
@@ -380,26 +406,26 @@ def main(file)
 
 
         for i in [0,7,17,21,28,30] do
-            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{shift+120-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{120-i+(360-shift)}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
         end
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+210-3.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{210-3.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 0.95
         w = 75 / (75/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+210-12}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{210-12+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 0.95
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+210-19}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{210-19+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+210-24.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{210-24.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 1.1
         w = 50 / (50/(term_height))
-        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+210-29}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{210-29+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 1.1
         #=====================Virgo=======================
 
@@ -421,27 +447,27 @@ def main(file)
         image x: 0, y: 0, width: w, height: zodiac_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference+(difference-zodiac_height)/2.0}) rotate(#{180-25-shift}, #{w/2.0}, #{outer_radius-difference-(difference-zodiac_height)/2.0})"
 
         for i in [0,6,14,21,28,30] do
-            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{shift+90-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{90-i+(360-shift)}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
         end
 
         term_height = term_height * 1.1
         w = 50 / (50/(term_height))
-        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+180-3}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{180-3+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 1.1
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+180-10}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{180-10+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+180-17.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{180-17.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 0.95
         w = 75 / (75/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+180-24.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{180-24.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 0.95
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+180-29}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{180-29+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         #=====================Libra=======================
 
@@ -462,27 +488,27 @@ def main(file)
 
 
         for i in [0,7,11,19,24,30] do
-            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{shift+60-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{60-i+(360-shift)}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
         end
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+150-3.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{150-3.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 0.95
         w = 75 / (75/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+150-8.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{150-8.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 0.95
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+150-15}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{150-15+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+150-21.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{150-21.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 1.1
         w = 50 / (50/(term_height))
-        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+150-27}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{150-27+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 1.1
         #=====================Scorpio=======================
 
@@ -504,26 +530,26 @@ def main(file)
         zodiac_height = zodiac_height / 1.1
 
         for i in [0,12,17,21,26,30] do
-            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{shift+30-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{30-i+(360-shift)}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
         end
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+120-6}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{120-6+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 0.95
         w = 75 / (75/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+120-14.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{120-14.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 0.95
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+120-19}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{120-19+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+120-23.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{120-23.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 1.1
         w = 50 / (50/(term_height))
-        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+120-28}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{120-28+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 1.1
 
         #=====================Sagittarius=======================
@@ -548,23 +574,23 @@ def main(file)
         end
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+90-3}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{90-3+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+90-10.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{90-10.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 0.95
         w = 75 / (75/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+90-18}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{90-18+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 0.95
 
         term_height = term_height * 1.1
         w = 50 / (50/(term_height))
-        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+90-24}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{90-24+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 1.1
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+90-28}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{90-28+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
 
         #=====================Capricorn=======================
@@ -587,26 +613,26 @@ def main(file)
         zodiac_height = zodiac_height / 0.8
 
         for i in [0,7,13,20,25,30] do
-            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{shift+330-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{330-i+(360-shift)}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
         end
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+60-3.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{60-3.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 0.95
         w = 75 / (75/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+60-10}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{60-10+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 0.95
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+60-16.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{60-16.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+60-22.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{60-22.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 1.1
         w = 50 / (50/(term_height))
-        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+60-27.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{60-27.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 1.1
 
         #=====================Aquarius=======================
@@ -627,27 +653,27 @@ def main(file)
         image x: 0, y: 0, width: w, height: zodiac_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference+(difference-zodiac_height)/2.0}) rotate(#{30-25-shift}, #{w/2.0}, #{outer_radius-difference-(difference-zodiac_height)/2.0})"
 
         for i in [0,12,16,19,28,30] do
-            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{shift+300-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{300-i+(360-shift)}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
         end
 
         term_height = term_height * 0.95
         w = 75 / (75/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+30-6}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Venus.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{30-6+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 0.95
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+30-14}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Jupiter.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{30-14+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+30-17.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mercury.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{30-17.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
 
         w = 50 / (50/term_height)
-        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+30-23.5}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Mars.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{30-23.5+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
 
         term_height = term_height * 1.1
         w = 50 / (50/(term_height))
-        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{shift+30-29}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
+        image x: 0, y: 0, width: w, height: term_height, href:"Saturn.svg", transform:"translate(#{center-w/2.0}, #{center-outer_radius+difference*2+(difference-term_height)/2.0}) rotate(#{30-29+(360-shift)}, #{w/2.0}, #{outer_radius-difference*2-(difference-term_height)/2.0})"
         term_height = term_height / 1.1
         #=====================Pisces=======================
 
