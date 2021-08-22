@@ -90,7 +90,7 @@ def main(file)
     center = dim/2.0
     outer_radius = 442.5
     difference = 40.0
-    shift = 240
+    shift = 180
     zodiac_height = 30.0
     term_height = 20.0
     dash_markers_width = 4
@@ -98,22 +98,22 @@ def main(file)
     svg.build do
         rect x: 0, y: 0, width: dim, height: dim, fill: '#151414'
 
-        text "Britney Spears", x: 20, y: 40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
+        text "Jarvin Martinez", x: 20, y: 40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
 
 
         text "Natal (Inner)", x: dim - 150, y: 40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
-        text "2/12/1981 1:30am", x: dim-174, y: 60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
-        text "McComb MS, USA", x: dim-174, y: 80, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+        text "7/9/1998 2:57pm", x: dim-165, y: 60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+        text "Miami FL, USA", x: dim-140, y: 80, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
 
 
-        text "Progressed (Middle)", x: dim-220, y: dim-40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
-        text "23/6/2021 5:00pm", x: dim-175, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
-        text "McComb MS, USA", x: dim-174, y: dim-80, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+        text "Primary Direction (Middle)", x: dim-280, y: dim-40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
+        text "7/9/2021 2:57pm", x: dim-159, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+        text "Miami FL, USA", x: dim-140, y: dim-80, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
 
 
         text "Transits (Outer)", x: 20, y: dim-40, font_weight: "bold", font_family: 'hasklig', font_size: term_height, fill: '#cfcfcf'
-        text "23/6/2021 2:00pm", x: 20, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
-        text "Los Angeles CA, USA", x: 20, y: dim-80, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+        text "7/9/2021 2:57pm", x: 20, y: dim-60, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
+        text "Miami FL, USA", x: 20, y: dim-80, font_family: 'hasklig', font_size: term_height*0.9, fill: '#cfcfcf'
 
         #Outer circles
         circle cx: center, cy: center, r: outer_radius, stroke: '#CC6D51', fill: 'none', stroke_width: '2px'
@@ -570,7 +570,7 @@ def main(file)
 
 
         for i in [0,7,14,22,26,30] do
-            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{shift-i}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
+            rect x: 0, y: 0, width: difference, height: 2, fill: '#CC6D51', transform:"rotate(#{0-i+(360-shift)}, #{center}, #{center}) translate(#{(outer_radius*2)+(dim-outer_radius*2)/2.0 - difference*3}, #{center}) "
         end
 
         w = 50 / (50/term_height)
@@ -696,6 +696,7 @@ def main(file)
                 #     end
                 # end
 
+                    puts "$$$$$$$$$$$$ CURRENT PLANES #{planets}"
 
 
                 for p in 0...planets.length
@@ -717,14 +718,20 @@ def main(file)
 
 
 
-                    if (p < planets.length-1 && planets.length > 1 && planets[p+1].values[0] - planets[p].values[0] < 5)
+                    if ((p < planets.length-1 && planets.length > 1 && planets[p+1].values[0] - planets[p].values[0] < 5) || (p > 0 && p < planets.length-1 && planets[p].values[0] + 5 < planets[p+1].values[0]))
+                        #     puts "%%%%% Entered on #{planets}"
+                        #     lift = true
+                        # end
+
                         if lift || planets.length - p == 2
                             xc,yc = coordinates(angle, outer_radius-difference*(factors[factor_counter]+1.05))
                             txc,tyc = coordinates(angle, outer_radius-difference*(factors[factor_counter]+1.5))
+                            puts "@@@@@@@@@@@@@@@@@@@@@@@@ #{planets} P #{p} LIFTED"
+
                         end
                         lift = !lift
-                        puts "@@@@@@@@@@@@@@@@@@@@@@@@ #{planets} P #{p}"
                     end
+
 
                     if angle > 0 && angle <= 90
 
